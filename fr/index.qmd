@@ -7,4 +7,4 @@ lang: fr
 # Analyse de l'opinion publique
 Bienvenue sur notre site vitrine dédié à l'analyse de l'opinion publique !
 
-[English version](en/index.html)
+[English version](../en/index.html)
