@@ -11,8 +11,9 @@ format:
 website:
   title: "Analyse de données<br>d'opinion publique"
   navbar:
-    logo: "images/couleur_transparent.png"
+    logo: "images/logos/couleur_transparent.png"
     search: true
+    pinned: true
     tools:
       - icon: twitter
         href: https://twitter.com/HubCadieux25
@@ -26,9 +27,24 @@ website:
     left:
       - text: "Accueil"
         href: index.qmd
-      - text: "Langue"
-        menu:
-          - text: Français
-            href: fr/index.html
-          - text: English
-            href: en/index.html
+      - text: "VISION Opubliq"
+        href: files/vision_opubliq.html
+      - text: "Nos services"
+        href: files/nos_services.html
+      - text: "Contact"
+        href: files/contact.html
+      - text: "À propos"
+        href: files/a_propos.html
+  page-footer:
+    left: "© 2025 Opubliq." 
+    right: 
+      - text: "Accueil"
+        href: index.qmd
+      - text: "VISION Opubliq"
+        href: files/vision_opubliq.html
+      - text: "Nos services"
+        href: files/nos_services.html
+      - text: "Contact"
+        href: files/contact.html
+      - text: "À propos"
+        href: files/a_propos.html 

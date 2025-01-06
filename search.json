@@ -1,23 +1,86 @@
 [
   {
-    "objectID": "fr/index.html",
-    "href": "fr/index.html",
-    "title": "Bienvenue sur Opubliq",
+    "objectID": "files/contact.html",
+    "href": "files/contact.html",
+    "title": "Contactez-nous",
     "section": "",
-    "text": "Analyse de l’opinion publique\nBienvenue sur notre site vitrine dédié à l’analyse de l’opinion publique !"
+    "text": "Nous sommes ravis de vous aider avec vos projets ou vos besoins en analyse de données d’opinion publique. N’hésitez pas à nous contacter !"
   },
   {
-    "objectID": "en/index.html",
-    "href": "en/index.html",
-    "title": "Welcome to Opubliq",
+    "objectID": "files/contact.html#par-courrie",
+    "href": "files/contact.html#par-courrie",
+    "title": "Contactez-nous",
+    "section": "📧 Par courrie",
+    "text": "📧 Par courrie\nEnvoyez-nous un message à hubertcadieux@opubliq.com."
+  },
+  {
+    "objectID": "files/contact.html#où-que-vous-soyez",
+    "href": "files/contact.html#où-que-vous-soyez",
+    "title": "Contactez-nous",
+    "section": "📍 Où que vous soyez",
+    "text": "📍 Où que vous soyez\nNous travaillons avec des partenaires et des clients partout. Si vous avez un projet ou une question, nous sommes à votre disposition pour discuter."
+  },
+  {
+    "objectID": "files/contact.html#premier-rendez-vous-gratuit",
+    "href": "files/contact.html#premier-rendez-vous-gratuit",
+    "title": "Contactez-nous",
+    "section": "🕒 Premier Rendez-vous Gratuit",
+    "text": "🕒 Premier Rendez-vous Gratuit\nVotre première rencontre pour discuter et estimer votre projet est gratuite. Contactez-nous dès aujourd’hui !\n\nSuivez-nous\n\nTwitter\nLinkedIn"
+  },
+  {
+    "objectID": "files/a_propos.html",
+    "href": "files/a_propos.html",
+    "title": "À Propos",
     "section": "",
-    "text": "Public Opinion Analysis\nWelcome to our showcase website dedicated to public opinion analysis!"
+    "text": "Hubert Cadieux\n\n\n\n\n\n\n\n\n\n\nFondateur de Opubliq, Hubert Cadieux est titulaire d’une maîtrise en science politique et possède une vaste expérience en programmation et en analyse de données. Il se consacre au développement de solutions innovantes et stratégiques pour aider les partis politiques, les entreprises et les organisations publiques à exploiter les données et à prendre des décisions éclairées.\n\n\n\nContactez-moi par e-mail à 📧 hubertcadieux@opubliq.com et suivez-moi sur LinkedIn, Twitter et GitHub."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Opubliq - Bienvenue",
+    "title": "Découvrez Opubliq : votre partenaire en analyse de données d’opinion publique",
     "section": "",
-    "text": "Bienvenue / Welcome"
+    "text": "Opubliq est une startup spécialisée dans l’analyse de données d’opinion publique.\nNotre mission est d’offrir des services d’analyse de données d’opinion publique aux :\nGrâce à nos outils et expertises, nous aidons nos clients à transformer des données complexes en décisions stratégiques."
+  },
+  {
+    "objectID": "index.html#nos-objectifs",
+    "href": "index.html#nos-objectifs",
+    "title": "Découvrez Opubliq : votre partenaire en analyse de données d’opinion publique",
+    "section": "Nos Objectifs",
+    "text": "Nos Objectifs\n\nSoutenir les campagnes politiques avec des données en temps réel.\nFournir des analyses sur mesure pour répondre à vos besoins.\nCréer des partenariats solides avec nos clients et collaborateurs."
+  },
+  {
+    "objectID": "files/nos_services.html",
+    "href": "files/nos_services.html",
+    "title": "Nos Services",
+    "section": "",
+    "text": "Nous sommes ouverts à des contrats de tout type, que ce soit pour :"
+  },
+  {
+    "objectID": "files/nos_services.html#intéressé-par-nos-services",
+    "href": "files/nos_services.html#intéressé-par-nos-services",
+    "title": "Nos Services",
+    "section": "Intéressé par nos services ?",
+    "text": "Intéressé par nos services ?\nAccédez à notre page de contact dès aujourd’hui pour discuter de votre projet."
+  },
+  {
+    "objectID": "files/vision_opubliq.html",
+    "href": "files/vision_opubliq.html",
+    "title": "VISION Opubliq",
+    "section": "",
+    "text": "VISION Opubliq est notre produit phare en développement, conçu spécifiquement pour les partis politiques municipaux."
+  },
+  {
+    "objectID": "files/vision_opubliq.html#fonctionnalités-clés",
+    "href": "files/vision_opubliq.html#fonctionnalités-clés",
+    "title": "VISION Opubliq",
+    "section": "Fonctionnalités Clés",
+    "text": "Fonctionnalités Clés\n\nTableau de bord interactif : Visualisez des données en temps réel.\nCentraliser la collecte de données terrain : Collectez et analysez des données en temps réel.\nAnalyse stratégique : Identifiez les zones clés pour maximiser l’impact des campagnes et votre potentiel de croissance.\nOptimisation des campagnes : Planifiez vos efforts de porte-à-porte grâce à des insights basés sur les données."
+  },
+  {
+    "objectID": "files/vision_opubliq.html#intéressé-par-vision-opubliq",
+    "href": "files/vision_opubliq.html#intéressé-par-vision-opubliq",
+    "title": "VISION Opubliq",
+    "section": "Intéressé par VISION Opubliq ?",
+    "text": "Intéressé par VISION Opubliq ?\nContactez-nous pour découvrir comment nous pouvons transformer votre campagne avec VISION Opubliq :\n\nPage de contact"
   }
 ]
