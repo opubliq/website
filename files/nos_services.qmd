@@ -1,0 +1,23 @@
+---
+title: "Nos Services"
+format: html
+editor: visual
+---
+
+Nous sommes **ouverts à des contrats de tout type**, que ce soit pour :
+
+- Des analyses spécifiques,
+- Des projets stratégiques,
+- Ou toute autre collaboration basée sur les données d'opinion publique.
+
+### **Pourquoi travailler avec nous ?**
+
+- **Flexibilité** : Nous adaptons nos solutions à vos besoins uniques.
+- **Accessibilité** : La première rencontre pour discuter et estimer votre projet est **gratuite**.
+
+---
+
+## Intéressé par nos services ?
+
+Accédez à notre [page de contact](contact.html) dès aujourd’hui pour discuter de votre projet.
+

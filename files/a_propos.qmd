@@ -1,0 +1,49 @@
+---
+title: "À Propos"
+format: html
+---
+
+### Hubert Cadieux
+
+:::{.columns}
+
+::: {.column width="20%"}
+![](../images/people/hubert.png){width=100% fig-align="center" fig-alt="Hubert Cadieux"}
+:::
+
+::: {.column width="2.5%"}
+:::
+
+::: {.column width="70%"}
+Fondateur de Opubliq, Hubert Cadieux est titulaire d'une maîtrise en science politique et possède une vaste expérience en programmation et en analyse de données. Il se consacre au développement de solutions innovantes et stratégiques pour aider les partis politiques, les entreprises et les organisations publiques à exploiter les données et à prendre des décisions éclairées.
+:::
+
+:::
+---
+
+Contactez-moi par e-mail à 📧 **[hubertcadieux@opubliq.com](mailto:hubertcadieux@opubliq.com)** et suivez-moi sur [LinkedIn](https://www.linkedin.com/in/hubert-cadieux-7172571a0), [Twitter](https://twitter.com/HubCadieux25) et [GitHub](https://github.com/hubcad25).
+
+---
+
+<!---
+### Alexandre Bouillon
+
+:::{.columns}
+
+::: {.column width="20%"}
+![](../images/people/alex.png){width=100% fig-align="center" fig-alt="Hubert Cadieux"}
+:::
+
+::: {.column width="2.5%"}
+:::
+
+::: {.column width="70%"}
+Fondateur de Opubliq, Hubert Cadieux est titulaire d'une maîtrise en science politique et possède une vaste expérience en programmation et en analyse de données. Il se consacre au développement de solutions innovantes et stratégiques pour aider les partis politiques, les entreprises et les organisations publiques à exploiter les données et à prendre des décisions éclairées.
+:::
+
+:::
+---
+
+Contactez-moi par e-mail à 📧 **[hubertcadieux@opubliq.com](mailto:hubertcadieux@opubliq.com)** et suivez-moi sur [LinkedIn](https://www.linkedin.com/in/hubert-cadieux-7172571a0), [Twitter](https://twitter.com/HubCadieux25) et [GitHub](https://github.com/hubcad25).
+
+--->

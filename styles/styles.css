@@ -45,3 +45,13 @@ body {
   color: #ffffff; /* Couleur des items au survol dans un menu déroulant */
   background-color: #f0695a; /* Couleur au survol */
 }
+
+strong {
+    font-weight: bold;
+  }
+  
+  /* Facultatif : centrer le texte dans le footer */
+.footer {
+    text-align: center;
+  }
+  
