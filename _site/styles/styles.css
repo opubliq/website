@@ -1,0 +1,47 @@
+body {
+    background-color: #ffffff; /* Couleur de fond personnalisée */
+  }
+
+/* Contrôle la couleur de fond de la sidebar */
+.navbar {
+    background-color: #012326; /* Changez cette couleur selon vos besoins */
+  }
+
+.navbar-brand {
+    font-size: 15px;
+    color: #0d8491;
+  }
+
+.navbar-brand img {
+    max-height: 70px;
+    width: auto;
+  }
+
+
+  /* Couleur par défaut des items de menu */
+.nav-link {
+  color: white; /* Remplacez #ffffff par la couleur de votre choix */
+}
+
+/* Couleur au survol des items de menu */
+.nav-link:hover {
+  color: white;
+  background-color: #f0695a; /* Couleur au survol */
+}
+
+/* Couleur des items actifs (celui sur lequel vous êtes) */
+.nav-link:active {
+  color: #00cc66; /* Couleur pour l'item actif */
+  font-weight: bold; /* Facultatif : rendre l'item actif en gras */
+}
+
+/* Couleur des items dans un menu déroulant */
+.dropdown-item {
+  background-color: #0d8491; /* Couleur des items dans un menu déroulant */
+  color: #012326
+}
+
+.dropdown-item:hover {
+  color: #ffffff; /* Couleur des items au survol dans un menu déroulant */
+  background-color: #f0695a; /* Couleur au survol */
+}
