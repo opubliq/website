@@ -4,5 +4,3 @@ title: "Opubliq - Bienvenue"
 
 # Bienvenue / Welcome
 
-[Version française](/fr/index.html)  
-[English version](/en/index.html)

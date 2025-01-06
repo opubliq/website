@@ -2,17 +2,11 @@ project:
   type: website
   output-dir: _site
 
-format:
-    html:
-      theme: lux
-      css: styles/styles.css
-
-
 website:
-  title: "Analyse de données<br>d'opinion publique"
-  navbar:
-    logo: "images/couleur_transparent.png"
-    search: true
+  title: "Bienvenue sur Opubliq"
+  sidebar:
+    style: "docked"
+    logo: "images/logo.png"
     tools:
       - icon: twitter
         href: https://twitter.com/HubCadieux25
@@ -22,13 +16,9 @@ website:
         href: https://github.com/hubcad25
       - text: '{{< iconify academicons:google-scholar >}}'
         href: https://scholar.google.com/citations?user=VF6HfPoAAAAJ&hl=fr&oi=ao
+    search: true
+    type: "dark"
     collapse-level: 1
-    left:
+    contents:
       - text: "Accueil"
         href: index.qmd
-      - text: "Langue"
-        menu:
-          - text: Français
-            href: fr/index.html
-          - text: English
-            href: en/index.html
