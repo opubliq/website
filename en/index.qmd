@@ -1,0 +1,10 @@
+---
+title: "Welcome to Opubliq"
+format: html
+lang: en
+---
+
+# Public Opinion Analysis
+Welcome to our showcase website dedicated to public opinion analysis!
+
+[Version française](fr/index.html)

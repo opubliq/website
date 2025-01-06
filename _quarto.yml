@@ -1,5 +1,8 @@
-project:
-  title: "website"
-
-
-
+website:
+  title: "Opubliq"
+  navbar:
+    left:
+      - text: Français
+        href: fr/index.html
+      - text: English
+        href: en/index.html
