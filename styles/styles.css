@@ -31,7 +31,13 @@ body {
 
 /* Couleur des items actifs (celui sur lequel vous êtes) */
 .nav-link:active {
-  color: #00cc66; /* Couleur pour l'item actif */
+  color: #0d8491; /* Couleur pour l'item actif */
+  font-weight: bold; /* Facultatif : rendre l'item actif en gras */
+}
+
+/* Couleur des items actifs (celui sur lequel vous êtes) */
+.nav-link.selected {
+  color: #0d8491; /* Couleur pour l'item actif */
   font-weight: bold; /* Facultatif : rendre l'item actif en gras */
 }
 
