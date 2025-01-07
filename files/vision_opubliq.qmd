@@ -1,0 +1,22 @@
+---
+title: "VISION Opubliq"
+format: html
+editor: visual
+---
+
+**VISION Opubliq** est notre produit phare en développement, conçu spécifiquement pour les **partis politiques municipaux**.
+
+---
+
+## Fonctionnalités Clés
+
+- **Tableau de bord interactif** : Visualisez des données en temps réel.
+- **Centraliser la collecte de données terrain** : Collectez et analysez des données en temps réel.
+- **Analyse stratégique** : Identifiez les zones clés pour maximiser l’impact des campagnes et votre potentiel de croissance.
+- **Optimisation des campagnes** : Planifiez vos efforts de porte-à-porte grâce à des insights basés sur les données.
+
+## Intéressé par VISION Opubliq ?
+
+Contactez-nous pour découvrir comment nous pouvons transformer votre campagne avec **VISION Opubliq** :
+
+- [Page de contact](contact.html)
