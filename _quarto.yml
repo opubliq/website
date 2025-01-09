@@ -11,7 +11,7 @@ format:
 website:
   title: "Analyse de données<br>d'opinion publique"
   navbar:
-    logo: "images/logos/couleur_transparent.png"
+    logo: "images/logos/Opubliq_V2_couleur-transparent.png"
     search: true
     pinned: true
     tools:
