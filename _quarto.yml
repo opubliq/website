@@ -1,11 +1,13 @@
 project:
   type: website
   output-dir: .
+  resources: 
+  - shinylive-sw.js
 
 format:
     html:
       theme: lux
-      css: styles/styles.css
+      css: www/styles.css
 
 
 website:

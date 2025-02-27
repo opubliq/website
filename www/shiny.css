@@ -1,0 +1,45 @@
+  .card {
+    border: none; /* Supprime la bordure */
+    border-radius: 8px; /* Coins arrondis */
+  }
+  
+  .card-header {
+    font-weight: bold; /* Texte en gras */
+  }
+  
+  input, select {
+    border: 1px solid #444444; /* Bordure légère */
+    border-radius: 4px; /* Coins arrondis */
+  }
+  
+  input:focus, select:focus {
+    outline: none; /* Supprime l'effet de focus par défaut */
+    border-color: #f0695a; /* Bordure colorée au focus */
+  }
+
+/* Assurer que la barre du slider est bien bleue */
+.irs-bar,
+.irs-bar-edge {
+    background: #56d1d7 !important;
+}
+
+/* S'assurer que la bordure est bien arrondie */
+.irs-bar {
+    border-radius: 4px !important;
+}
+
+/* Modifier uniquement le rond du slider (poignée) */
+.irs-handle {
+    background: #56d1d7 !important;
+    border: 0px solid #0d8491 !important;
+    border-radius: 0 !important;
+    width: 16px !important; /* Ajuste la largeur */
+    height: 16px !important; /* Ajuste la hauteur */
+}
+
+.irs-single {
+    color: #0d8491 !important; /* Changer le fond */
+    background: #56d1d7 !important;       /* Changer la couleur du texte */
+    border: 0px solid darkorange !important; /* Ajouter une bordure */
+    border-radius: 0px !important; /* Ajuster l'arrondi si besoin */
+}
