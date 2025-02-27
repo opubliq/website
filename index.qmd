@@ -1,23 +1,15 @@
 ---
-title: "Découvrez Opubliq : votre partenaire en analyse de données d'opinion publique"
+title: "Découvrez Opubliq : votre partenaire pour transformer les données d'opinion publique en actions stratégiques"
 format: html
 editor: visual
 lang: fr
 ---
 
-**Opubliq** est une startup spécialisée dans l'analyse de données d'opinion publique.
+ <span style="color: #0d8491;">**Opubliq**</span> est une startup spécialisée dans la transformation de données d'opinion publique en actions stratégiques pour les partis politiques, les organisations publiques et les entreprises.
 
-Notre mission est d'offrir des **services d'analyse de données d'opinion publique** aux :
-
-- Partis politiques
-- Entreprises
-- Organisations publiques
-- Groupes académiques
-
-Grâce à nos outils et expertises, nous aidons nos clients à **transformer des données complexes en décisions stratégiques**.
-
-## Nos Objectifs
+## Nos objectifs
 
 - Soutenir les campagnes politiques avec des données en temps réel.
-- Fournir des analyses sur mesure pour répondre à vos besoins.
+- Optimiser votre budget en valorisant les données terrain plutôt que les coûteux sondages traditionnels.
+- Développer des solutions d'analyse sur mesure adaptées à vos enjeux spécifiques.
 - Créer des partenariats solides avec nos clients et collaborateurs.
