@@ -7,9 +7,8 @@ editor: visual
 Nous sommes ravis de vous aider avec vos projets ou vos besoins en analyse de données d'opinion publique. N'hésitez pas à nous contacter !
 
 ---
-
 ## 📧 Par courriel
-Envoyez-nous un message à **[hubertcadieux@opubliq.com](mailto:hubertcadieux@opubliq.com)**.
+Envoyez-nous un message à **[info@opubliq.com](mailto:info@opubliq.com)**.
 
 
 ## 📍 Où que vous soyez
@@ -23,5 +22,5 @@ Votre première rencontre pour discuter et estimer votre projet est **gratuite**
 
 ### **Suivez-nous**
 - [Twitter](https://twitter.com/HubCadieux25)
-- [LinkedIn](https://www.linkedin.com/in/hubert-cadieux-7172571a0)
+- [LinkedIn](https://www.linkedin.com/company/opubliq/?viewAsMember=true)
 
