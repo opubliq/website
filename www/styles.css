@@ -173,8 +173,8 @@ main.content {
     color: #012326 !important;
   }
 
-/* Hover effect pour les liens normaux */
-a:hover {
+/* Hover effect pour les liens normaux (pas dans navbar) */
+a:not(.nav-link):hover {
     color: #f0695a !important;
   }
 
