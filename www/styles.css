@@ -4,16 +4,29 @@ body {
 
 /* Contrôle la couleur de fond de la sidebar */
 .navbar {
-    background-color: #012326; /* Changez cette couleur selon vos besoins */
+    background-color: #012326;
+    padding: 0 !important;
+    min-height: auto !important;
+  }
+
+/* Forcer le container de la navbar à occuper toute la hauteur */
+.navbar-container {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height: 70px;
+    display: flex;
+    align-items: center;
   }
 
 .navbar-brand {
     font-size: 15px;
     color: #0d8491;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
 .navbar-brand img {
-    max-height: 70px;
+    max-height: 50px;
     width: auto;
   }
 
@@ -29,16 +42,85 @@ body {
   background-color: #f0695a; /* Couleur au survol */
 }
 
+/* Reset du padding par défaut des nav-links */
+.nav-link {
+  margin: 0 !important;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem !important;
+  box-sizing: border-box;
+}
+
 /* Couleur des items actifs (celui sur lequel vous êtes) */
 .nav-link:active {
-  color: #0d8491; /* Couleur pour l'item actif */
-  font-weight: bold; /* Facultatif : rendre l'item actif en gras */
+  background-color: #56d1d7 !important;
+  color: #012326 !important;
+  font-weight: bold;
+  margin: 0 !important;
+  padding: 0 1rem !important;
+  min-height: 70px;
+  height: auto;
+  position: relative;
+  top: 0;
+  bottom: 0;
 }
 
 /* Couleur des items actifs (celui sur lequel vous êtes) */
 .nav-link.selected {
-  color: #0d8491; /* Couleur pour l'item actif */
-  font-weight: bold; /* Facultatif : rendre l'item actif en gras */
+  background-color: #56d1d7 !important;
+  color: #012326 !important;
+  font-weight: bold;
+  margin: 0 !important;
+  padding: 0 1rem !important;
+  min-height: 70px;
+  height: auto;
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+
+/* Page courante dans la navigation */
+.nav-link.active {
+  background-color: #56d1d7 !important;
+  color: #012326 !important;
+  font-weight: bold;
+  margin: 0 !important;
+  padding: 0 1rem !important;
+  min-height: 70px;
+  height: auto;
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+
+/* S'assurer que la navbar et ses éléments occupent toute la hauteur */
+.navbar-nav {
+  height: 70px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.navbar-nav .nav-item {
+  height: 70px;
+  display: flex;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Forcer le collapse à occuper toute la hauteur */
+.navbar-collapse {
+  height: 70px;
+  display: flex;
+  align-items: stretch;
+}
+
+/* Forcer l'onglet actif à occuper vraiment toute la hauteur */
+.nav-link.active,
+.nav-link:active,
+.nav-link.selected {
+  margin: 0 !important;
+  border-radius: 0 !important;
 }
 
 /* Couleur des items dans un menu déroulant */
@@ -61,14 +143,26 @@ strong {
     text-align: center;
   }
 
-/* Élargir la largeur du contenu principal */
-.quarto-container {
-    max-width: 100% !important;
+/* Ajouter de l'espace sous la navbar pour les titres */
+.title,
+h1.title,
+.quarto-title h1 {
+    margin-top: 2rem !important;
   }
 
-/* Alternative si la classe précédente ne fonctionne pas */
+/* Élargir la largeur du contenu principal */
 main.content {
-    max-width: 100% !important;
+    max-width: 95% !important;
     margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+/* Alternative pour le container parent */
+.quarto-container,
+.container-fluid {
+    max-width: 100% !important;
+    padding-left: 0;
+    padding-right: 0;
   }
   

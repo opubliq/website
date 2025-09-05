@@ -21,12 +21,12 @@ website:
     search: true
     pinned: true
     tools:
-      - icon: twitter
-        href: https://twitter.com/HubCadieux25
+      #- icon: twitter
+      #  href: https://twitter.com/HubCadieux25
       - icon: linkedin
-        href: https://www.linkedin.com/in/hubert-cadieux-7172571a0
+        href: https://www.linkedin.com/company/opubliq
       - icon: github
-        href: https://github.com/hubcad25
+        href: https://github.com/opubliq
       - text: '{{< iconify academicons:google-scholar >}}'
         href: https://scholar.google.com/citations?user=VF6HfPoAAAAJ&hl=fr&oi=ao
     collapse-level: 1
@@ -35,19 +35,19 @@ website:
         href: index.qmd
       - text: "Nos services"
         href: files/nos_services.html
-      - text: "Contact"
+      - text: "Nos réalisations"
+        href: files/realisations.html
+      - text: "Notre équipe"
+        href: files/notre_equipe.html
+      - text: "Nous contacter"
         href: files/contact.html
-      - text: "À propos"
-        href: files/a_propos.html
   page-footer:
     left: "© 2025 Opubliq." 
     right: 
       - text: "Accueil"
         href: index.qmd
-      - text: "VISION Opubliq"
-        href: files/vision_opubliq.html
-      - text: "Nos services"
-        href: files/nos_services.html
+      #- text: "Nos services"
+      #  href: files/nos_services.html
       - text: "Contact"
         href: files/contact.html
       - text: "À propos"
