@@ -60,4 +60,15 @@ strong {
 .footer {
     text-align: center;
   }
+
+/* Élargir la largeur du contenu principal */
+.quarto-container {
+    max-width: 100% !important;
+  }
+
+/* Alternative si la classe précédente ne fonctionne pas */
+main.content {
+    max-width: 100% !important;
+    margin: 0 auto;
+  }
   

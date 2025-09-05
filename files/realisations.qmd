@@ -1,0 +1,27 @@
+---
+title: "Nos Réalisations"
+format: html
+editor: visual
+lang: fr
+---
+
+## Projets et cas d'usage
+
+*Cette page sera développée au fur et à mesure de nos réalisations.*
+
+### Expertise développée
+
+En tant que startup émergente, nous concentrons nos efforts sur le développement d'une expertise solide en :
+
+- **Analyse de données d'opinion publique**
+- **Conception de questionnaires et méthodologies d'enquête**
+- **Développement d'outils d'analyse sur mesure**
+- **Conseil stratégique basé sur les données**
+
+---
+
+## Intéressé par nos services ?
+
+Contactez-nous pour discuter de votre projet et voir comment nous pouvons vous aider.
+
+[📞 Première consultation gratuite](contact.html){.btn .btn-primary style="background-color: #56d1d7; border-color: #56d1d7; color: #012326; padding: 12px 24px; border-radius: 5px; font-weight: bold; text-decoration: none;"}

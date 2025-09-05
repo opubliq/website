@@ -37,14 +37,14 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Découvrez Opubliq : votre partenaire pour transformer les données d’opinion publique en actions stratégiques",
+    "title": "Transformez les données d’opinion publique en actions stratégiques",
     "section": "",
-    "text": "Opubliq est une startup spécialisée dans la transformation de données d’opinion publique en actions stratégiques pour les partis politiques, les organisations publiques et les entreprises."
+    "text": "Opubliq est une startup spécialisée dans la transformation de données en actions stratégiques pour comprendre et naviguer l’opinion publique."
   },
   {
     "objectID": "index.html#nos-objectifs",
     "href": "index.html#nos-objectifs",
-    "title": "Découvrez Opubliq : votre partenaire pour transformer les données d’opinion publique en actions stratégiques",
+    "title": "Transformez les données d’opinion publique en actions stratégiques",
     "section": "Nos objectifs",
     "text": "Nos objectifs\n\nSoutenir les campagnes politiques avec des données en temps réel.\nOptimiser votre budget en valorisant les données terrain plutôt que les coûteux sondages traditionnels.\nDévelopper des solutions d’analyse sur mesure adaptées à vos enjeux spécifiques.\nCréer des partenariats solides avec nos clients et collaborateurs."
   },
@@ -89,5 +89,82 @@
     "title": "VISION Opubliq",
     "section": "Intéressé par VISION Opubliq ?",
     "text": "Intéressé par VISION Opubliq ?\nContactez-nous pour découvrir comment nous pouvons transformer votre campagne avec VISION Opubliq :\n\nPage de contact"
+  },
+  {
+    "objectID": "CLAUDE.html",
+    "href": "CLAUDE.html",
+    "title": "Claude Assistant Configuration",
+    "section": "",
+    "text": "This file contains information to help Claude understand and work with this project.\n\n\nThis is a Quarto website project for Opubliq (opubliq.com), a startup specializing in transforming public opinion data into strategic actions. The site is deployed using GitHub Pages.\n\n\n\nThe site is deployed using GitHub Pages. The output directory is set to “.” (root) in _quarto.yml.\n\n\n\n\nquarto render - Build the website\nquarto preview - Preview the site locally\ngit add . && git commit -m \"message\" && git push - Deploy changes to GitHub Pages\n\n\n\n\n\n_quarto.yml - Quarto configuration file\nindex.qmd - Main page content\nfiles/ - Additional pages (vision_opubliq.html, nos_services.html, etc.)\nimages/ - Image assets\nwww/ - CSS and other web assets"
+  },
+  {
+    "objectID": "CLAUDE.html#project-overview",
+    "href": "CLAUDE.html#project-overview",
+    "title": "Claude Assistant Configuration",
+    "section": "",
+    "text": "This is a Quarto website project for Opubliq (opubliq.com), a startup specializing in transforming public opinion data into strategic actions. The site is deployed using GitHub Pages."
+  },
+  {
+    "objectID": "CLAUDE.html#deployment",
+    "href": "CLAUDE.html#deployment",
+    "title": "Claude Assistant Configuration",
+    "section": "",
+    "text": "The site is deployed using GitHub Pages. The output directory is set to “.” (root) in _quarto.yml."
+  },
+  {
+    "objectID": "CLAUDE.html#commands",
+    "href": "CLAUDE.html#commands",
+    "title": "Claude Assistant Configuration",
+    "section": "",
+    "text": "quarto render - Build the website\nquarto preview - Preview the site locally\ngit add . && git commit -m \"message\" && git push - Deploy changes to GitHub Pages"
+  },
+  {
+    "objectID": "CLAUDE.html#project-structure",
+    "href": "CLAUDE.html#project-structure",
+    "title": "Claude Assistant Configuration",
+    "section": "",
+    "text": "_quarto.yml - Quarto configuration file\nindex.qmd - Main page content\nfiles/ - Additional pages (vision_opubliq.html, nos_services.html, etc.)\nimages/ - Image assets\nwww/ - CSS and other web assets"
+  },
+  {
+    "objectID": "index.html#comment-opubliq-peut-vous-aider",
+    "href": "index.html#comment-opubliq-peut-vous-aider",
+    "title": "Transformez les données d’opinion publique en actions stratégiques",
+    "section": "Comment Opubliq peut vous aider",
+    "text": "Comment Opubliq peut vous aider\n\nComprendre l’opinion publique en temps réel sur vos enjeux\nDévelopper des solutions d’analyse sur mesure adaptées à vos enjeux spécifiques\nIdentifier des leviers d’influence dans l’opinion publique\nOptimiser votre budget en valorisant les données terrain plutôt que les coûteux sondages traditionnels"
+  },
+  {
+    "objectID": "index.html#équipe-expertise",
+    "href": "index.html#équipe-expertise",
+    "title": "Transformez les données d’opinion publique en actions stratégiques",
+    "section": "Équipe & expertise",
+    "text": "Équipe & expertise\nNotre équipe combine expertise en science politique, programmation avancée, analyse de données et expérience terrain pour vous accompagner dans vos décisions stratégiques.\n\n Découvrez notre équipe |  Voir nos réalisations"
+  },
+  {
+    "objectID": "index.html#prêt-à-commencer",
+    "href": "index.html#prêt-à-commencer",
+    "title": "Transformez les données d’opinion publique en actions stratégiques",
+    "section": "Prêt à commencer ?",
+    "text": "Prêt à commencer ?\nDiscutons de votre projet lors d’une première consultation gratuite.\n\n Parlons de votre projet"
+  },
+  {
+    "objectID": "files/realisations.html",
+    "href": "files/realisations.html",
+    "title": "Nos Réalisations",
+    "section": "",
+    "text": "Cette page sera développée au fur et à mesure de nos réalisations.\n\n\nEn tant que startup émergente, nous concentrons nos efforts sur le développement d’une expertise solide en :\n\nAnalyse de données d’opinion publique\nConception de questionnaires et méthodologies d’enquête\nDéveloppement d’outils d’analyse sur mesure\nConseil stratégique basé sur les données"
+  },
+  {
+    "objectID": "files/realisations.html#projets-et-cas-dusage",
+    "href": "files/realisations.html#projets-et-cas-dusage",
+    "title": "Nos Réalisations",
+    "section": "",
+    "text": "Cette page sera développée au fur et à mesure de nos réalisations.\n\n\nEn tant que startup émergente, nous concentrons nos efforts sur le développement d’une expertise solide en :\n\nAnalyse de données d’opinion publique\nConception de questionnaires et méthodologies d’enquête\nDéveloppement d’outils d’analyse sur mesure\nConseil stratégique basé sur les données"
+  },
+  {
+    "objectID": "files/realisations.html#intéressé-par-nos-services",
+    "href": "files/realisations.html#intéressé-par-nos-services",
+    "title": "Nos Réalisations",
+    "section": "Intéressé par nos services ?",
+    "text": "Intéressé par nos services ?\nContactez-nous pour discuter de votre projet et voir comment nous pouvons vous aider.\n📞 Première consultation gratuite"
   }
 ]

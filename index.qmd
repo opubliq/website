@@ -1,15 +1,43 @@
 ---
-title: "Découvrez Opubliq : votre partenaire pour transformer les données d'opinion publique en actions stratégiques"
+title: "Transformez les données d'opinion publique en actions stratégiques"
 format: html
 editor: visual
 lang: fr
 ---
 
- <span style="color: #0d8491;">**Opubliq**</span> est une startup spécialisée dans la transformation de données d'opinion publique en actions stratégiques pour les partis politiques, les organisations publiques et les entreprises.
+<div style="font-size: 1.2em; line-height: 1.4;">
+<span style="color: #012326;">**Opubliq**</span> est une startup spécialisée dans la transformation de données en actions stratégiques pour comprendre et naviguer l'opinion publique.
+</div>
 
-## Nos objectifs
+<div style="text-align: right; margin-top: 20px;">
+Vous voulez en savoir plus? &nbsp;&nbsp;&nbsp;<a href="files/contact.html" class="btn btn-primary btn-lg" style="background-color: #56d1d7; border-color: #56d1d7; color: #012326; text-decoration: none; padding: 12px 24px; border-radius: 5px; font-weight: bold;"><img src="images/icons/consulting.png" style="width: 30px; height: 30px; vertical-align: middle; margin-right: 8px;"> Première consultation gratuite</a>
+</div>
 
-- Soutenir les campagnes politiques avec des données en temps réel.
-- Optimiser votre budget en valorisant les données terrain plutôt que les coûteux sondages traditionnels.
-- Développer des solutions d'analyse sur mesure adaptées à vos enjeux spécifiques.
-- Créer des partenariats solides avec nos clients et collaborateurs.
+<br>
+
+## Comment Opubliq peut vous aider
+
+- **Comprendre l'opinion publique** en temps réel sur vos enjeux
+- **Développer des solutions d'analyse** sur mesure adaptées à vos enjeux spécifiques
+- **Identifier des leviers d'influence** dans l'opinion publique
+- **Optimiser votre budget** en valorisant les données terrain plutôt que les coûteux sondages traditionnels
+
+<br>
+
+## Équipe & expertise
+
+Notre équipe combine expertise en science politique, programmation avancée, analyse de données et expérience terrain pour vous accompagner dans vos décisions stratégiques.
+
+<div style="text-align: center; margin: 20px 0;">
+<a href="files/a_propos.html" style="color: #0d8491; text-decoration: none; font-weight: bold;"><img src="images/icons/group.png" style="width: 18px; height: 18px; vertical-align: middle; margin-right: 6px;"> Découvrez notre équipe</a> | <a href="files/realisations.html" style="color: #0d8491; text-decoration: none; font-weight: bold;"><img src="images/icons/portfolio.png" style="width: 18px; height: 18px; vertical-align: middle; margin-right: 6px;"> Voir nos réalisations</a>
+</div>
+
+<br>
+
+## Prêt à commencer ?
+
+Discutons de votre projet lors d'une première consultation gratuite.
+
+<div style="text-align: center; margin-top: 20px;">
+<a href="files/contact.html" class="btn btn-primary btn-lg" style="background-color: #56d1d7; border-color: #56d1d7; color: #012326; text-decoration: none; padding: 15px 30px; border-radius: 8px; font-weight: bold; font-size: 18px;"><img src="images/icons/phone-call.png" style="width: 18px; height: 18px; vertical-align: middle; margin-right: 8px;"> Parlons de votre projet</a>
+</div>
