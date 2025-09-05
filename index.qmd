@@ -23,7 +23,7 @@ Vous voulez en savoir plus? &nbsp;&nbsp;&nbsp;<a href="files/contact.html" class
 - **Optimiser votre financement** - Profils de donateurs et stratégies personnalisées
 
 <div style="text-align: center; margin: 20px 0;">
-<a href="files/nos_services.html" style="color: #012326; text-decoration: none; font-weight: bold;"><img src="images/icons/briefcase.png" style="width: 18px; height: 18px; vertical-align: middle; margin-right: 6px;"> Découvrez nos services détaillés</a>
+<a href="files/nos_services.html" style="color: #012326; text-decoration: none; font-weight: bold;"><img src="images/icons/briefcase.png" style="width: 18px; height: 18px; vertical-align: middle; margin-right: 6px;"> Découvrez nos services</a>
 </div>
 
 <br>
