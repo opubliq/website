@@ -3,10 +3,10 @@ project:
   output-dir: .
   resources: 
   - shinylive-sw.js
-render:
-  - "*.qmd"
-  - "files/*.qmd"
-  - "!CLAUDE.md"
+  render:
+    - "*.qmd"
+    - "files/*.qmd"
+    - "!CLAUDE.md"
 
 format:
     html:

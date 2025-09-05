@@ -1,5 +1,61 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Transformez les données d’opinion publique en actions stratégiques",
+    "section": "",
+    "text": "Opubliq est une startup spécialisée dans la transformation de données en actions stratégiques pour comprendre et naviguer l’opinion publique."
+  },
+  {
+    "objectID": "index.html#comment-opubliq-peut-vous-aider",
+    "href": "index.html#comment-opubliq-peut-vous-aider",
+    "title": "Transformez les données d’opinion publique en actions stratégiques",
+    "section": "Comment Opubliq peut vous aider",
+    "text": "Comment Opubliq peut vous aider\n\nComprendre l’opinion publique en temps réel sur vos enjeux\nDévelopper des solutions d’analyse sur mesure adaptées à vos enjeux spécifiques\nIdentifier des leviers d’influence dans l’opinion publique\nOptimiser votre budget en valorisant les données terrain plutôt que les coûteux sondages traditionnels"
+  },
+  {
+    "objectID": "index.html#équipe-expertise",
+    "href": "index.html#équipe-expertise",
+    "title": "Transformez les données d’opinion publique en actions stratégiques",
+    "section": "Équipe & expertise",
+    "text": "Équipe & expertise\nNotre équipe combine expertise en science politique, programmation avancée, analyse de données et expérience terrain pour vous accompagner dans vos décisions stratégiques.\n\n Découvrez notre équipe |  Voir nos réalisations"
+  },
+  {
+    "objectID": "index.html#prêt-à-commencer",
+    "href": "index.html#prêt-à-commencer",
+    "title": "Transformez les données d’opinion publique en actions stratégiques",
+    "section": "Prêt à commencer ?",
+    "text": "Prêt à commencer ?\nDiscutons de votre projet lors d’une première consultation gratuite.\n\n Parlons de votre projet"
+  },
+  {
+    "objectID": "files/nos_services.html",
+    "href": "files/nos_services.html",
+    "title": "Nos Services",
+    "section": "",
+    "text": "Nous sommes ouverts à des contrats de tout type, que ce soit pour :"
+  },
+  {
+    "objectID": "files/nos_services.html#exemples-de-services-spécifiques",
+    "href": "files/nos_services.html#exemples-de-services-spécifiques",
+    "title": "Nos Services",
+    "section": "Exemples de services spécifiques",
+    "text": "Exemples de services spécifiques\nBrainstorm - Services concrets que nous pouvons offrir :\n\nConceptualiser un questionnaire\nAnalyser des sondages/données que vous avez déjà\nIdentifier des profils de donateurs potentiels\nSoutenir des campagnes politiques avec des données en temps réel\nIdentifier des tendances pour influencer les communications\nÉtudes d’acceptabilité sociale\nAnalyses de sentiment sur les réseaux sociaux\nCartographie des parties prenantes\nVeille stratégique sur l’opinion publique\n\n\nPourquoi travailler avec nous ?\n\nFlexibilité : Nous adaptons nos solutions à vos besoins uniques.\nAccessibilité : La première rencontre pour discuter et estimer votre projet est gratuite."
+  },
+  {
+    "objectID": "files/nos_services.html#intéressé-par-nos-services",
+    "href": "files/nos_services.html#intéressé-par-nos-services",
+    "title": "Nos Services",
+    "section": "Intéressé par nos services ?",
+    "text": "Intéressé par nos services ?\nAccédez à notre page de contact dès aujourd’hui pour discuter de votre projet."
+  },
+  {
+    "objectID": "files/a_propos.html",
+    "href": "files/a_propos.html",
+    "title": "À Propos",
+    "section": "",
+    "text": "Hubert Cadieux\n\n\n\n\n\n\n\n\n\n\nFondateur de Opubliq, Hubert Cadieux est titulaire d’une maîtrise en science politique et possède une vaste expérience en programmation et en analyse de données. Il se consacre au développement de solutions innovantes et stratégiques pour aider les partis politiques, les entreprises et les organisations publiques à exploiter les données et à prendre des décisions éclairées.\n\n\n\nContactez-moi par e-mail à 📧 hubertcadieux@opubliq.com et suivez-moi sur LinkedIn, Twitter et GitHub."
+  },
+  {
     "objectID": "files/contact.html",
     "href": "files/contact.html",
     "title": "Contactez-nous",
@@ -26,125 +82,6 @@
     "title": "Contactez-nous",
     "section": "🕒 Premier Rendez-vous Gratuit",
     "text": "🕒 Premier Rendez-vous Gratuit\nVotre première rencontre pour discuter et estimer votre projet est gratuite. Contactez-nous dès aujourd’hui !\n\nSuivez-nous\n\nTwitter\nLinkedIn"
-  },
-  {
-    "objectID": "files/a_propos.html",
-    "href": "files/a_propos.html",
-    "title": "À Propos",
-    "section": "",
-    "text": "Hubert Cadieux\n\n\n\n\n\n\n\n\n\n\nFondateur de Opubliq, Hubert Cadieux est titulaire d’une maîtrise en science politique et possède une vaste expérience en programmation et en analyse de données. Il se consacre au développement de solutions innovantes et stratégiques pour aider les partis politiques, les entreprises et les organisations publiques à exploiter les données et à prendre des décisions éclairées.\n\n\n\nContactez-moi par e-mail à 📧 hubertcadieux@opubliq.com et suivez-moi sur LinkedIn, Twitter et GitHub."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Transformez les données d’opinion publique en actions stratégiques",
-    "section": "",
-    "text": "Opubliq est une startup spécialisée dans la transformation de données en actions stratégiques pour comprendre et naviguer l’opinion publique."
-  },
-  {
-    "objectID": "index.html#nos-objectifs",
-    "href": "index.html#nos-objectifs",
-    "title": "Transformez les données d’opinion publique en actions stratégiques",
-    "section": "Nos objectifs",
-    "text": "Nos objectifs\n\nSoutenir les campagnes politiques avec des données en temps réel.\nOptimiser votre budget en valorisant les données terrain plutôt que les coûteux sondages traditionnels.\nDévelopper des solutions d’analyse sur mesure adaptées à vos enjeux spécifiques.\nCréer des partenariats solides avec nos clients et collaborateurs."
-  },
-  {
-    "objectID": "files/nos_services.html",
-    "href": "files/nos_services.html",
-    "title": "Nos Services",
-    "section": "",
-    "text": "Nous sommes ouverts à des contrats de tout type, que ce soit pour :"
-  },
-  {
-    "objectID": "files/nos_services.html#intéressé-par-nos-services",
-    "href": "files/nos_services.html#intéressé-par-nos-services",
-    "title": "Nos Services",
-    "section": "Intéressé par nos services ?",
-    "text": "Intéressé par nos services ?\nAccédez à notre page de contact dès aujourd’hui pour discuter de votre projet."
-  },
-  {
-    "objectID": "files/vision_opubliq.html",
-    "href": "files/vision_opubliq.html",
-    "title": "VISION Opubliq",
-    "section": "",
-    "text": "VISION Opubliq est notre produit phare en développement, conçu spécifiquement pour les partis politiques municipaux."
-  },
-  {
-    "objectID": "files/vision_opubliq.html#fonctionnalités-clés",
-    "href": "files/vision_opubliq.html#fonctionnalités-clés",
-    "title": "VISION Opubliq",
-    "section": "Fonctionnalités Clés",
-    "text": "Fonctionnalités Clés\n\nTableau de bord interactif : Visualisez des données en temps réel.\nCentraliser la collecte de données terrain : Collectez et analysez des données en temps réel.\nAnalyse stratégique : Identifiez les zones clés pour maximiser l’impact des campagnes et votre potentiel de croissance.\nOptimisation des campagnes : Planifiez vos efforts de porte-à-porte grâce à des insights basés sur les données."
-  },
-  {
-    "objectID": "files/vision_opubliq.html#estimation-du-prix",
-    "href": "files/vision_opubliq.html#estimation-du-prix",
-    "title": "VISION Opubliq",
-    "section": "Estimation du prix",
-    "text": "Estimation du prix\nLe prix de VISION Opubliq dépend de plusieurs facteurs :\n\nLa taille de votre population\nLa taille de l’échantillon à analyser (en assumant une bonne représentativité)\nLe nombre de membres de votre équipe ayant accès à la plateforme\nLa fréquence de mise à jour des données\n\nUtilisez cet estimateur de prix:\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 500\n\nlibrary(shiny)\nlibrary(bslib)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\n### Main function: varies according to population price\npopulation_price_function &lt;- function(N) {\n  vapply(N, function(p) {\n    if (p &lt; 25000) {\n      return(700)\n    } else if (p &lt;= 50000) {\n      # Segment 25k-50k: 800-1200 (linéaire)\n      return(800 + (p - 25000) * (1200 - 800) / (50000 - 25000))\n    } else if (p &lt;= 100000) {\n      # Segment 50k-100k: 1500-7500 (linéaire)\n      return(1500 + (p - 50000) * (7500 - 1500) / (100000 - 50000))\n    } else if (p &lt;= 500000) {\n      # Segment 100k-500k: 7500-12000 (linéaire)\n      return(7500 + (p - 100000) * (12000 - 7500) / (500000 - 100000))\n    } else {\n      # Segment 500k-2millions: 12000-20000 (linéaire)\n      return(12000 + (p - 500000) * (20000 - 12000) / (2000000 - 500000))\n    }\n  }, numeric(1))\n}\n\n##### Function that varies by the desired sample size \n\ncalc_me &lt;- function(n, p = 0.5, z = 1.96) {\n  return(z * sqrt((p * (1 - p)) / n))\n}\n\ncalc_me_finite &lt;- function(n, N, p = 0.5, z = 1.96) {\n  me &lt;- calc_me(n, p, z)\n  correction &lt;- sqrt((N - n) / (N - 1))\n  return(me * correction)\n}\n\nprice_per_respondent &lt;- function(n, N, a = 0.0001, b = 0.06, c = 0.002, max_price = 0.9) {\n  me &lt;- calc_me_finite(n, N)\n  me_minus1 &lt;- calc_me_finite(n - 1, N)\n  me_marginal &lt;- abs(me - me_minus1)  # Prendre la valeur absolue\n  \n  price &lt;- a + (b * log(1 + c / me_marginal))  # Transformation plus douce\n  price &lt;- pmin(price, max_price)  # Plafonner à 0.1\n  \n  return(price)\n}\n\ncumulative_sample_price &lt;- function(\n  n, N\n){\n  prices &lt;- price_per_respondent(1:n, N)\n  total_price &lt;- sum(prices)\n  return(total_price)\n}\n\nui &lt;- page_fillable(\n  theme = bslib::bs_theme(version = 5, bootswatch = NULL), # Désactive les thèmes par défaut\n  tags$head(\n    tags$link(rel = \"stylesheet\", type = \"text/css\", href = \"/www/shiny.css\")\n    #tags$style(HTML(\".js-irs-0 .irs-single, .js-irs-0 .irs-bar-edge, .js-irs-0 .irs-bar {background: purple}\")),\n  ),\n  layout_columns(\n    col_widths = c(8, 4),\n    card(\n      card_header(\"Paramètres\"),\n      sliderInput(\n        inputId = \"population\",\n        label = \"Taille de la population dans votre municipalité:\",\n        value = 25000,\n        min = 0, max = 2000000,\n        step = 1000,\n        sep = \" \", ticks = FALSE\n      ),\n      sliderInput(\n        inputId = \"sample_size\",\n        label = \"Taille de l'échantillon:\",\n        value = 300,\n        min = 0, max = 5000,\n        step = 10,\n        sep = \" \", ticks = FALSE\n      )\n    ),\n    card(\n      card_header(\"Prix\"),\n      uiOutput(\"price\"),\n      height = 100,\n      max_height = 100,\n      #plotOutput(\"price_decomposition\")\n    )\n  )\n)\n\nserver &lt;- function(input, output, session) {\n  output$price &lt;- renderUI({\n    price &lt;- population_price_function(N = input$population) + cumulative_sample_price(n = input$sample_size, N = input$population)\n    HTML(paste0(\"&lt;strong&gt;&lt;span style='color: #28a745; font-size: 20px;'&gt;\", \n              formatC(price, format = \"f\", big.mark = \" \", digits = 2), \n              \" $&lt;/span&gt;&lt;/strong&gt;\"))\n  })\n  #output$price_decomposition &lt;- renderPlot({\n  #  graph_data &lt;- data.frame(\n  #    type = c(\"Population\", \"Échantillon\"),\n  #    price = c(population_price_function(N = input$population), cumulative_sample_price(n = input$sample_size, N = input$population))\n  #  )\n  #  ggplot(\n  #    graph_data,\n  #    aes(x = price, y = type)\n  #  ) +\n  #    geom_col()\n  #})\n}\n\n# Create the Shiny app\nshinyApp(ui = ui, server = server)"
-  },
-  {
-    "objectID": "files/vision_opubliq.html#intéressé-par-vision-opubliq",
-    "href": "files/vision_opubliq.html#intéressé-par-vision-opubliq",
-    "title": "VISION Opubliq",
-    "section": "Intéressé par VISION Opubliq ?",
-    "text": "Intéressé par VISION Opubliq ?\nContactez-nous pour découvrir comment nous pouvons transformer votre campagne avec VISION Opubliq :\n\nPage de contact"
-  },
-  {
-    "objectID": "CLAUDE.html",
-    "href": "CLAUDE.html",
-    "title": "Claude Assistant Configuration",
-    "section": "",
-    "text": "This file contains information to help Claude understand and work with this project.\n\n\nThis is a Quarto website project for Opubliq (opubliq.com), a startup specializing in transforming public opinion data into strategic actions. The site is deployed using GitHub Pages.\n\n\n\nThe site is deployed using GitHub Pages. The output directory is set to “.” (root) in _quarto.yml.\n\n\n\n\nquarto render - Build the website\nquarto preview - Preview the site locally\ngit add . && git commit -m \"message\" && git push - Deploy changes to GitHub Pages\n\n\n\n\n\n_quarto.yml - Quarto configuration file\nindex.qmd - Main page content\nfiles/ - Additional pages (vision_opubliq.html, nos_services.html, etc.)\nimages/ - Image assets\nwww/ - CSS and other web assets"
-  },
-  {
-    "objectID": "CLAUDE.html#project-overview",
-    "href": "CLAUDE.html#project-overview",
-    "title": "Claude Assistant Configuration",
-    "section": "",
-    "text": "This is a Quarto website project for Opubliq (opubliq.com), a startup specializing in transforming public opinion data into strategic actions. The site is deployed using GitHub Pages."
-  },
-  {
-    "objectID": "CLAUDE.html#deployment",
-    "href": "CLAUDE.html#deployment",
-    "title": "Claude Assistant Configuration",
-    "section": "",
-    "text": "The site is deployed using GitHub Pages. The output directory is set to “.” (root) in _quarto.yml."
-  },
-  {
-    "objectID": "CLAUDE.html#commands",
-    "href": "CLAUDE.html#commands",
-    "title": "Claude Assistant Configuration",
-    "section": "",
-    "text": "quarto render - Build the website\nquarto preview - Preview the site locally\ngit add . && git commit -m \"message\" && git push - Deploy changes to GitHub Pages"
-  },
-  {
-    "objectID": "CLAUDE.html#project-structure",
-    "href": "CLAUDE.html#project-structure",
-    "title": "Claude Assistant Configuration",
-    "section": "",
-    "text": "_quarto.yml - Quarto configuration file\nindex.qmd - Main page content\nfiles/ - Additional pages (vision_opubliq.html, nos_services.html, etc.)\nimages/ - Image assets\nwww/ - CSS and other web assets"
-  },
-  {
-    "objectID": "index.html#comment-opubliq-peut-vous-aider",
-    "href": "index.html#comment-opubliq-peut-vous-aider",
-    "title": "Transformez les données d’opinion publique en actions stratégiques",
-    "section": "Comment Opubliq peut vous aider",
-    "text": "Comment Opubliq peut vous aider\n\nComprendre l’opinion publique en temps réel sur vos enjeux\nDévelopper des solutions d’analyse sur mesure adaptées à vos enjeux spécifiques\nIdentifier des leviers d’influence dans l’opinion publique\nOptimiser votre budget en valorisant les données terrain plutôt que les coûteux sondages traditionnels"
-  },
-  {
-    "objectID": "index.html#équipe-expertise",
-    "href": "index.html#équipe-expertise",
-    "title": "Transformez les données d’opinion publique en actions stratégiques",
-    "section": "Équipe & expertise",
-    "text": "Équipe & expertise\nNotre équipe combine expertise en science politique, programmation avancée, analyse de données et expérience terrain pour vous accompagner dans vos décisions stratégiques.\n\n Découvrez notre équipe |  Voir nos réalisations"
-  },
-  {
-    "objectID": "index.html#prêt-à-commencer",
-    "href": "index.html#prêt-à-commencer",
-    "title": "Transformez les données d’opinion publique en actions stratégiques",
-    "section": "Prêt à commencer ?",
-    "text": "Prêt à commencer ?\nDiscutons de votre projet lors d’une première consultation gratuite.\n\n Parlons de votre projet"
   },
   {
     "objectID": "files/realisations.html",
