@@ -3,6 +3,10 @@ project:
   output-dir: .
   resources: 
   - shinylive-sw.js
+render:
+  - "*.qmd"
+  - "files/*.qmd"
+  - "!CLAUDE.md"
 
 format:
     html:
@@ -29,8 +33,6 @@ website:
     left:
       - text: "Accueil"
         href: index.qmd
-      - text: "VISION Opubliq"
-        href: files/vision_opubliq.html
       - text: "Nos services"
         href: files/nos_services.html
       - text: "Contact"
