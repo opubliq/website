@@ -1,27 +1,84 @@
 ---
 title: "Nos Réalisations"
 format: html
-editor: visual
+editor: source
 lang: fr
 ---
 
-## Projets et cas d'usage
+<div class="services-grid">
 
-*Cette page sera développée au fur et à mesure de nos réalisations.*
+<div class="services-column">
 
-### Expertise développée
+<details>
+<summary>**Analyse du désir de parentalité chez les jeunes adultes canadiens**</summary>
 
-En tant que startup émergente, nous concentrons nos efforts sur le développement d'une expertise solide en :
+Notre co-fondateur Hubert Cadieux a co-écrit une série d'analyses sur les données d'enquête YMCA Canada 2024 explorant les facteurs qui influencent le désir d'avoir des enfants.<br><br>
+**Mars 2025** - Analyse des intentions de parentalité par statut relationnel et facteurs démographiques<br>
+<a href="https://cdnsurveystuff.substack.com/p/who-wants-to-have-children" target="_blank" style="color: #012326; font-weight: bold;">Who wants to have children? →</a><br><br>
+**Avril 2025** - Analyse comparative entre groupes culturels et communautaires<br>
+<a href="https://cdnsurveystuff.substack.com/p/culture-and-community-a-second-look" target="_blank" style="color: #012326; font-weight: bold;">Culture and community: a second look →</a><br><br>
+**Juin 2025** - Modélisation prédictive par forêt aléatoire<br>
+<a href="https://cdnsurveystuff.substack.com/p/resilience-well-being-and-economic" target="_blank" style="color: #012326; font-weight: bold;">Resilience, well-being and economic security →</a>
 
-- **Analyse de données d'opinion publique**
-- **Conception de questionnaires et méthodologies d'enquête**
-- **Développement d'outils d'analyse sur mesure**
-- **Conseil stratégique basé sur les données**
+</details>
+
+<details>
+<summary>**Intelligence artificielle appliquée aux sciences sociales**</summary>
+
+Nos co-fondateurs Hubert Cadieux et Alexandre Bouillon ont co-écrit des recherches sur l'utilisation des LLM pour l'analyse politique.<br><br>
+**2025** - Développement d'une méthodologie standardisée d'extraction de données avec les LLM<br>
+<a href="https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:eQOLeE2rZwMC" target="_blank" style="color: #012326; font-weight: bold;">Prompting the Machine: Introducing an LLM Data Extraction Method →</a><br><br>
+**2024** - Évaluation des biais politiques dans la classification de partis par GPT-4o<br>
+<a href="https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:IjCSPb-OGe4C" target="_blank" style="color: #012326; font-weight: bold;">Ain't no party like a GPT party: assessing OpenAI's GPT political alignment classification →</a>
+
+</details>
+
+<details>
+<summary>**Analyse des promesses électorales**</summary>
+
+Notre co-fondateur Hubert Cadieux a co-écrit des recherches sur l'évaluation et la mesure des promesses politiques.<br><br>
+**2025** - Analyse des 697 promesses des gouvernements minoritaires de Justin Trudeau<br>
+<a href="https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:Y0pCki6q_DkC" target="_blank" style="color: #012326; font-weight: bold;">Committing without Counting? Untangling the 697 Promises →</a><br><br>
+**2024** - Revue systématique des méthodes de mesure de l'importance des promesses électorales<br>
+<a href="https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:qjMakFHDy7sC" target="_blank" style="color: #012326; font-weight: bold;">Pledge Salience: A Scoping Review of a Non-consensual Concept →</a>
+
+</details>
+
+</div>
+
+<div class="services-column">
+
+<details>
+<summary>**Analyses électorales et prévisions**</summary>
+
+Notre co-fondateur Hubert Cadieux a co-écrit plusieurs articles sur l'analyse électorale et les méthodes de prévision.<br><br>
+**2022** - Développement de l'Index Relatif de Confiance pour mesurer le potentiel de croissance du Parti conservateur du Québec<br>
+<a href="https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:u5HHmVD_uO8C" target="_blank" style="color: #012326; font-weight: bold;">Sur le potentiel de croissance du Parti conservateur du Québec →</a><br><br>
+**2025** - Application de méthodes de prévision citoyenne à l'élection présidentielle américaine 2024<br>
+<a href="https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:UeHWp8X0CEIC" target="_blank" style="color: #012326; font-weight: bold;">Lessons Learned: Citizen Forecasting, Candidate Resignations, and the 2024 US Presidential Election →</a><br><br>
+**2025** - Analyse de la montée du Parti Québécois avec l'Index Relatif de Confiance<br>
+<a href="https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:Tyk-4Ss8FVUC" target="_blank" style="color: #012326; font-weight: bold;">Electoral dynamics in Quebec: analyzing the rise of the Parti Québécois →</a>
+
+</details>
+
+<details>
+<summary>**Acceptabilité sociale des politiques climatiques**</summary>
+
+Notre co-fondateur Hubert Cadieux a co-écrit une analyse sur l'impact des mesures d'équité dans la transition écologique.<br><br>
+**2025** - Enquête auprès de 1,500 Canadiens sur l'acceptabilité sociale des politiques climatiques<br>
+<a href="https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:W7OEmFMy1HYC" target="_blank" style="color: #012326; font-weight: bold;">Just Transition and Social Acceptability: A Canadian Case →</a>
+
+</details>
+
+</div>
+
+</div>
 
 ---
 
-## Intéressé par nos services ?
 
-Contactez-nous pour discuter de votre projet et voir comment nous pouvons vous aider.
+## Vous voulez voir votre projet ici ?
+
+Contactez-nous pour discuter de vos enjeux d'opinion publique et développer ensemble des analyses qui feront la différence.
 
 [📞 Première consultation gratuite](contact.html){.btn .btn-primary style="background-color: #56d1d7; border-color: #56d1d7; color: #012326; padding: 12px 24px; border-radius: 5px; font-weight: bold; text-decoration: none;"}

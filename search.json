@@ -37,30 +37,16 @@
   {
     "objectID": "files/contact.html",
     "href": "files/contact.html",
-    "title": "Contactez-nous",
+    "title": "Comment nous contacter",
     "section": "",
-    "text": "Nous sommes ravis de vous aider avec vos projets ou vos besoins en analyse de données d’opinion publique. N’hésitez pas à nous contacter !"
+    "text": "Transformons ensemble vos données d’opinion publique en actions stratégiques"
   },
   {
-    "objectID": "files/contact.html#par-courriel",
-    "href": "files/contact.html#par-courriel",
-    "title": "Contactez-nous",
-    "section": "📧 Par courriel",
-    "text": "📧 Par courriel\nEnvoyez-nous un message à info@opubliq.com."
-  },
-  {
-    "objectID": "files/contact.html#où-que-vous-soyez",
-    "href": "files/contact.html#où-que-vous-soyez",
-    "title": "Contactez-nous",
-    "section": "📍 Où que vous soyez",
-    "text": "📍 Où que vous soyez\nNous travaillons avec des partenaires et des clients partout. Si vous avez un projet ou une question, nous sommes à votre disposition pour discuter."
-  },
-  {
-    "objectID": "files/contact.html#premier-rendez-vous-gratuit",
-    "href": "files/contact.html#premier-rendez-vous-gratuit",
-    "title": "Contactez-nous",
-    "section": "🕒 Premier Rendez-vous Gratuit",
-    "text": "🕒 Premier Rendez-vous Gratuit\nVotre première rencontre pour discuter et estimer votre projet est gratuite. Contactez-nous dès aujourd’hui !\n\nSuivez-nous\n\nTwitter\nLinkedIn"
+    "objectID": "files/contact.html#processus-de-collaboration",
+    "href": "files/contact.html#processus-de-collaboration",
+    "title": "Comment nous contacter",
+    "section": "Processus de collaboration",
+    "text": "Processus de collaboration\n\n\n\n1\n\n\n\nConsultation initiale gratuite\n\n\nÉvaluation de vos besoins et définition des objectifs\n\n\n\n\n\n2\n\n\n\nProposition personnalisée\n\n\nPlan d’action détaillé avec méthodologie et timeline\n\n\n\n\n\n3\n\n\n\nExécution et suivi\n\n\nMise en œuvre avec rapports réguliers et ajustements"
   },
   {
     "objectID": "files/nos_services.html",
@@ -88,20 +74,13 @@
     "href": "files/realisations.html",
     "title": "Nos Réalisations",
     "section": "",
-    "text": "Cette page sera développée au fur et à mesure de nos réalisations.\n\n\nEn tant que startup émergente, nous concentrons nos efforts sur le développement d’une expertise solide en :\n\nAnalyse de données d’opinion publique\nConception de questionnaires et méthodologies d’enquête\nDéveloppement d’outils d’analyse sur mesure\nConseil stratégique basé sur les données"
+    "text": "Analyse du désir de parentalité chez les jeunes adultes canadiens\n\nNotre co-fondateur Hubert Cadieux a co-écrit une série d’analyses sur les données d’enquête YMCA Canada 2024 explorant les facteurs qui influencent le désir d’avoir des enfants. Mars 2025 - Analyse des intentions de parentalité par statut relationnel et facteurs démographiques Who wants to have children? → Avril 2025 - Analyse comparative entre groupes culturels et communautaires Culture and community: a second look → Juin 2025 - Modélisation prédictive par forêt aléatoire Resilience, well-being and economic security →\n\n\n\nIntelligence artificielle appliquée aux sciences sociales\n\nNos co-fondateurs Hubert Cadieux et Alexandre Bouillon ont co-écrit des recherches sur l’utilisation des LLM pour l’analyse politique. 2025 - Développement d’une méthodologie standardisée d’extraction de données avec les LLM Prompting the Machine: Introducing an LLM Data Extraction Method → 2024 - Évaluation des biais politiques dans la classification de partis par GPT-4o Ain’t no party like a GPT party: assessing OpenAI’s GPT political alignment classification →\n\n\n\nAnalyse des promesses électorales\n\nNotre co-fondateur Hubert Cadieux a co-écrit des recherches sur l’évaluation et la mesure des promesses politiques. 2025 - Analyse des 697 promesses des gouvernements minoritaires de Justin Trudeau Committing without Counting? Untangling the 697 Promises → 2024 - Revue systématique des méthodes de mesure de l’importance des promesses électorales Pledge Salience: A Scoping Review of a Non-consensual Concept →\n\n\n\n\n\nAnalyses électorales et prévisions\n\nNotre co-fondateur Hubert Cadieux a co-écrit plusieurs articles sur l’analyse électorale et les méthodes de prévision. 2022 - Développement de l’Index Relatif de Confiance pour mesurer le potentiel de croissance du Parti conservateur du Québec Sur le potentiel de croissance du Parti conservateur du Québec → 2025 - Application de méthodes de prévision citoyenne à l’élection présidentielle américaine 2024 Lessons Learned: Citizen Forecasting, Candidate Resignations, and the 2024 US Presidential Election → 2025 - Analyse de la montée du Parti Québécois avec l’Index Relatif de Confiance Electoral dynamics in Quebec: analyzing the rise of the Parti Québécois →\n\n\n\nAcceptabilité sociale des politiques climatiques\n\nNotre co-fondateur Hubert Cadieux a co-écrit une analyse sur l’impact des mesures d’équité dans la transition écologique. 2025 - Enquête auprès de 1,500 Canadiens sur l’acceptabilité sociale des politiques climatiques Just Transition and Social Acceptability: A Canadian Case →"
   },
   {
-    "objectID": "files/realisations.html#projets-et-cas-dusage",
-    "href": "files/realisations.html#projets-et-cas-dusage",
+    "objectID": "files/realisations.html#vous-voulez-voir-votre-projet-ici",
+    "href": "files/realisations.html#vous-voulez-voir-votre-projet-ici",
     "title": "Nos Réalisations",
-    "section": "",
-    "text": "Cette page sera développée au fur et à mesure de nos réalisations.\n\n\nEn tant que startup émergente, nous concentrons nos efforts sur le développement d’une expertise solide en :\n\nAnalyse de données d’opinion publique\nConception de questionnaires et méthodologies d’enquête\nDéveloppement d’outils d’analyse sur mesure\nConseil stratégique basé sur les données"
-  },
-  {
-    "objectID": "files/realisations.html#intéressé-par-nos-services",
-    "href": "files/realisations.html#intéressé-par-nos-services",
-    "title": "Nos Réalisations",
-    "section": "Intéressé par nos services ?",
-    "text": "Intéressé par nos services ?\nContactez-nous pour discuter de votre projet et voir comment nous pouvons vous aider.\n📞 Première consultation gratuite"
+    "section": "Vous voulez voir votre projet ici ?",
+    "text": "Vous voulez voir votre projet ici ?\nContactez-nous pour discuter de vos enjeux d’opinion publique et développer ensemble des analyses qui feront la différence.\n📞 Première consultation gratuite"
   }
 ]
