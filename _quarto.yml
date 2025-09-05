@@ -50,5 +50,5 @@ website:
       #  href: files/nos_services.html
       - text: "Contact"
         href: files/contact.html
-      - text: "À propos"
-        href: files/a_propos.html 
+      #- text: "À propos"
+      #  href: files/a_propos.html 

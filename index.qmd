@@ -1,5 +1,5 @@
 ---
-title: "Transformez les données d'opinion publique en actions stratégiques"
+title: "Transformez vos données d'opinion publique en actions stratégiques"
 format: html
 editor: visual
 lang: fr
@@ -17,10 +17,14 @@ Vous voulez en savoir plus? &nbsp;&nbsp;&nbsp;<a href="files/contact.html" class
 
 ## Comment Opubliq peut vous aider
 
-- **Comprendre l'opinion publique** en temps réel sur vos enjeux
-- **Développer des solutions d'analyse** sur mesure adaptées à vos enjeux spécifiques
-- **Identifier des leviers d'influence** dans l'opinion publique
-- **Optimiser votre budget** en valorisant les données terrain plutôt que les coûteux sondages traditionnels
+- **Analyser vos données existantes** - Exploitez vos données avec nos analyses expertes
+- **Concevoir des études sur mesure** - Questionnaires rigoureux selon vos objectifs  
+- **Accompagner vos campagnes politiques** - Stratégies électorales avec données terrain
+- **Optimiser votre financement** - Profils de donateurs et stratégies personnalisées
+
+<div style="text-align: center; margin: 20px 0;">
+<a href="files/nos_services.html" style="color: #012326; text-decoration: none; font-weight: bold;"><img src="images/icons/briefcase.png" style="width: 18px; height: 18px; vertical-align: middle; margin-right: 6px;"> Découvrez nos services détaillés</a>
+</div>
 
 <br>
 
@@ -29,7 +33,7 @@ Vous voulez en savoir plus? &nbsp;&nbsp;&nbsp;<a href="files/contact.html" class
 Notre équipe combine expertise en science politique, programmation avancée, analyse de données et expérience terrain pour vous accompagner dans vos décisions stratégiques.
 
 <div style="text-align: center; margin: 20px 0;">
-<a href="files/a_propos.html" style="color: #0d8491; text-decoration: none; font-weight: bold;"><img src="images/icons/group.png" style="width: 18px; height: 18px; vertical-align: middle; margin-right: 6px;"> Découvrez notre équipe</a> | <a href="files/realisations.html" style="color: #0d8491; text-decoration: none; font-weight: bold;"><img src="images/icons/portfolio.png" style="width: 18px; height: 18px; vertical-align: middle; margin-right: 6px;"> Voir nos réalisations</a>
+<a href="files/a_propos.html" style="color: #012326; text-decoration: none; font-weight: bold;"><img src="images/icons/group.png" style="width: 18px; height: 18px; vertical-align: middle; margin-right: 6px;"> Découvrez notre équipe</a> | <a href="files/realisations.html" style="color: #012326; text-decoration: none; font-weight: bold;"><img src="images/icons/portfolio.png" style="width: 18px; height: 18px; vertical-align: middle; margin-right: 6px;"> Voir nos réalisations</a>
 </div>
 
 <br>

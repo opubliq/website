@@ -4,34 +4,86 @@ format: html
 editor: visual
 ---
 
-Nous sommes **ouverts à des contrats de tout type**, que ce soit pour :
+<div class="services-grid">
 
-- Des analyses spécifiques,
-- Des projets stratégiques,
-- Ou toute autre collaboration basée sur les données d'opinion publique.
+<div class="services-column">
 
-## Exemples de services spécifiques
+<details>
+<summary><img src="../images/icons/analytics.png" class="service-icon"> **Analyse de vos données existantes**</summary>
 
-**Brainstorm - Services concrets que nous pouvons offrir :**
+**Exploitez vos données actuelles**<br>Fournissez vos données et vos questions, on s'occupe de l'analyse<br><br>
+**Points d'influence stratégiques**<br>Identifier où et comment influencer efficacement les décideurs<br><br>
+**Plan d'action personnalisé**<br>Étapes concrètes à suivre selon vos résultats<br><br>
+**Analyse sentiment et opinion**<br>Réseaux sociaux, commentaires publics et autres sources textuelles
 
-- Conceptualiser un questionnaire
-- Analyser des sondages/données que vous avez déjà
-- Identifier des profils de donateurs potentiels
-- Soutenir des campagnes politiques avec des données en temps réel
-- Identifier des tendances pour influencer les communications
-- Études d'acceptabilité sociale
-- Analyses de sentiment sur les réseaux sociaux
-- Cartographie des parties prenantes
-- Veille stratégique sur l'opinion publique
+</details>
 
-### **Pourquoi travailler avec nous ?**
+<details>
+<summary><img src="../images/icons/questionnaire.png" class="service-icon"> **Conception d'études sur mesure**</summary>
 
-- **Flexibilité** : Nous adaptons nos solutions à vos besoins uniques.
-- **Accessibilité** : La première rencontre pour discuter et estimer votre projet est **gratuite**.
+**Questionnaires rigoureux**<br>Selon les meilleures pratiques de l'industrie<br><br>
+**Thèmes d'études variés**<br>Acceptabilité sociale, leviers d'influence, enjeux prioritaires des citoyens, intentions de vote<br><br>
+**Revue de littérature scientifique**<br>Contextualisation de vos enjeux avec la recherche existante<br><br>
+**Rapport complet avec recommandations**<br>Analyse détaillée et pistes d'action stratégiques
+
+</details>
+
+</div>
+
+<div class="services-column">
+
+<details>
+<summary><img src="../images/icons/marketing.png" class="service-icon"> **Accompagnement stratégique de campagnes politiques**</summary>
+
+**Tableaux de bord temps réel**<br>Suivi interactif des données récoltées sur le terrain<br><br>
+**Analyses électorales**<br>Optimisation du positionnement, appropriation d'enjeux, identification de bassins d'électeurs potentiels<br><br>
+**Formation et collecte terrain**<br>Formation de vos équipes/bénévoles pour récolter des données sur le terrain<br><br>
+**Optimisation communications**<br>Ajustements basés sur les données
+
+</details>
+
+<details>
+<summary><img src="../images/icons/charity.png" class="service-icon"> **Financement & levée de fonds**</summary>
+
+**Profils de donateurs**<br>Analyses démographiques et comportementales<br><br>
+**Croisement de données**<br>Vos données + sources publiques (Élections Québec, etc.)<br><br>
+**Sources de financement**<br>Identification d'opportunités potentielles<br><br>
+**Stratégies personnalisées**<br>Collecte de fonds avec suivi continu
+
+</details>
+
+</div>
+
+</div>
 
 ---
 
-## Intéressé par nos services ?
+## Prêt à commencer ?
 
-Accédez à notre [page de contact](contact.html) dès aujourd’hui pour discuter de votre projet.
+Discutons de votre projet lors d'une première consultation gratuite.
 
+<div style="text-align: center; margin: 30px 0;">
+<a href="contact.html" class="btn btn-primary btn-lg" style="background-color: #56d1d7; border-color: #56d1d7; color: #012326; text-decoration: none; padding: 15px 30px; border-radius: 8px; font-weight: bold; font-size: 18px;"><img src="../images/icons/consulting.png" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 8px;"> Première consultation gratuite</a>
+</div>
+
+---
+
+## Pourquoi travailler avec Opubliq ?
+
+**EXPERTISE TERRAIN & SCIENTIFIQUE**<br>
+Notre équipe combine expérience terrain concrète, expertise en analyse de données et rigueur scientifique. Nous maîtrisons autant la pratique que la théorie, ce qui nous permet de vous offrir des analyses solides et des recommandations applicables.
+
+<br>
+
+**PARTENARIATS & MANDATS À LONG TERME**<br>
+Nous sommes ouverts aux longs mandats et partenariats stratégiques. Notre objectif est de nous établir durablement dans le marché en créant des relations de confiance avec nos clients. Nous privilégions les collaborations à long terme qui nous permettent de vraiment comprendre vos enjeux.
+
+<br>
+
+**FLEXIBILITÉ & ADAPTATION**<br>
+Nous sommes flexibles et adaptatifs selon vos besoins spécifiques et votre budget. Que vous ayez un projet ponctuel, des contraintes budgétaires particulières ou des échéanciers serrés, nous ajustons notre approche pour vous offrir exactement ce dont vous avez besoin.
+
+<br>
+
+**INVESTISSEMENT DANS LES RELATIONS DURABLES**<br>
+Nous privilégions la construction de relations de confiance à long terme plutôt que la maximisation des profits à court terme. Cette approche nous permet d'offrir un excellent rapport qualité-prix tout en développant des études de cas exemplaires qui bénéficient à tous nos clients.
