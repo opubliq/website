@@ -276,5 +276,51 @@ details div, details ul, details p {
       grid-template-columns: 1fr;
       gap: 20px;
     }
+    
+    /* Fond sombre pour les liens de navigation sur mobile */
+    .navbar-nav .nav-link {
+      background-color: #012326 !important;
+      width: 100% !important;
+      display: block !important;
+      min-height: 35px !important;
+      padding: 0.5rem 1rem !important;
+    }
+    
+    /* S'assurer que les nav-items occupent toute la largeur */
+    .navbar-nav .nav-item {
+      width: 100% !important;
+      height: 35px !important;
+    }
+    
+    /* Augmenter la largeur et l'espace vertical du dropdown menu sur mobile */
+    .navbar-collapse {
+      width: 100% !important;
+      position: absolute !important;
+      left: 0 !important;
+      right: 0 !important;
+      top: 100% !important;
+      z-index: 1000 !important;
+      padding: 0 0 3rem 0 !important;
+    }
+    
+    /* Enlever les gaps entre les nav-items */
+    .navbar-nav {
+      gap: 0 !important;
+    }
+    
+    /* Hover effects pour les nav-links sur mobile */
+    .navbar-nav .nav-link:hover {
+      background-color: #f0695a !important;
+      color: white !important;
+    }
+    
+    /* Nav-link actif sur mobile */
+    .navbar-nav .nav-link.active,
+    .navbar-nav .nav-link:active,
+    .navbar-nav .nav-link.selected {
+      background-color: #56d1d7 !important;
+      color: #012326 !important;
+      min-height: 35px !important;
+    }
   }
   
