@@ -170,11 +170,11 @@ main.content {
 .btn:hover {
     background-color: #f0695a !important;
     border-color: #f0695a !important;
-    color: #012326 !important;
+    color: #ffffff !important;
   }
 
-/* Hover effect pour les liens normaux (pas dans navbar) */
-a:not(.nav-link):hover {
+/* Hover effect pour les liens normaux (pas dans navbar ni boutons) */
+a:not(.nav-link):not(.btn):hover {
     color: #f0695a !important;
   }
 
