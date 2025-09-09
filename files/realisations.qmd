@@ -1,5 +1,8 @@
 ---
 title: "Nos Réalisations"
+#format:
+#    html:
+#        page-layout: full
 format: html
 editor: source
 lang: fr
