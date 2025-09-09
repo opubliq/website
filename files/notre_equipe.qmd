@@ -18,7 +18,7 @@ Hubert Cadieux est un scientifique de données et fondateur d'Opubliq. Candidat 
 
 Auteur de plusieurs publications académiques et boursier du Fonds de recherche du Québec, il a contribué à des projets comme Datagotchi, Boussole électorale et Polimètre, et développe des outils d'analyse avancés pour les entreprises, les OBNL et les organisations politiques et publiques.
 
-📧 **[hubertcadieux@opubliq.com](mailto:hubertcadieux@opubliq.com)**  
+![](../images/icons/email.png){width=20px} **[hubertcadieux@opubliq.com](mailto:hubertcadieux@opubliq.com)**  
 [LinkedIn](https://www.linkedin.com/in/hubert-cadieux-7172571a0) | [Twitter](https://twitter.com/HubCadieux25) | [GitHub](https://github.com/hubcad25)
 </div>
 :::
@@ -34,7 +34,7 @@ Co-fondateur d'Opubliq, Alexandre est candidat à la maîtrise en science politi
 
 À travers Opubliq, il met à profit son expertise en sciences sociales numériques pour outiller les acteurs politiques et contribuer à démocratiser l'opinion publique au sein de la société civile.
 
-📧 **[alexandrebouillon@opubliq.com](mailto:alexandrebouillon@opubliq.com)**  
+![](../images/icons/email.png){width=20px} **[alexandrebouillon@opubliq.com](mailto:alexandrebouillon@opubliq.com)**  
 [LinkedIn](https://www.linkedin.com/in/alexandrebouillon/) | [Twitter](https://x.com/Boubou7654) | [GitHub](https://github.com/AlexBouillon)
 </div>
 :::
@@ -50,7 +50,7 @@ Co-fondateur d'Opubliq, Nicolas Ebnoether-Noel est titulaire d’un baccalauréa
 
 Il a accompagné une variété d’acteurs politiques, institutionnels et associatifs dans la définition et la mise en œuvre de stratégies d'optimisation fondées sur l’analyse des données.
 
-📧 **[nicolasebnoethernoel@opubliq.com](mailto:nicolasebnoethernoel@opubliq.com)**  
+![](../images/icons/email.png){width=20px} **[nicolasebnoethernoel@opubliq.com](mailto:nicolasebnoethernoel@opubliq.com)**  
 [LinkedIn](https://www.linkedin.com/in/nicolas-ebnoether-noel-ba0598254/)
 </div>
 :::
