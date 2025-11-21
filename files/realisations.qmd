@@ -13,17 +13,21 @@ lang: fr
 <div class="services-column">
 
 <details>
-<summary>**Analyse du désir de parentalité chez les jeunes adultes canadiens**</summary>
+<summary>**Accompagnement stratégique | Repensons Lévis**</summary>
 
-Notre co-fondateur Hubert Cadieux a co-écrit une série d'analyses sur les données d'enquête YMCA Canada 2024 explorant les facteurs qui influencent le désir d'avoir des enfants.<br><br>
-**Mars 2025** - Analyse des intentions de parentalité par statut relationnel et facteurs démographiques<br>
-<a href="https://cdnsurveystuff.substack.com/p/who-wants-to-have-children" target="_blank" style="color: #012326; font-weight: bold;">Who wants to have children? →</a><br><br>
-**Avril 2025** - Analyse comparative entre groupes culturels et communautaires<br>
-<a href="https://cdnsurveystuff.substack.com/p/culture-and-community-a-second-look" target="_blank" style="color: #012326; font-weight: bold;">Culture and community: a second look →</a><br><br>
-**Juin 2025** - Modélisation prédictive par forêt aléatoire<br>
-<a href="https://cdnsurveystuff.substack.com/p/resilience-well-being-and-economic" target="_blank" style="color: #012326; font-weight: bold;">Resilience, well-being and economic security →</a>
+Nous avons récemment accompagné [Repensons Lévis](https://repensonslevis.com/) dans une démarche complète d'analyse d'opinion publique et de stratégie terrain.<br><br>
+Notre mandat comprenait :<br>
+- Conception sur mesure d'un sondage adapté à la campagne municipale<br>
+- Mise en place d'un tableau de bord temps réel pour suivre l'évolution des données<br>
+- Formation des bénévoles du parti aux techniques de pointage terrain<br>
+- Analyses stratégiques utilisant des méthodes de pondération avancées pour maximiser la valeur des données récoltées<br>
+- Recommandations stratégiques basées sur ces insights<br><br>
+
+« *Nous avons reçu un accompagnement d’une grande qualité, alliant rigueur et compréhension fine de nos besoins. Le sondage sur mesure, le tableau de bord en temps réel et la formation de nos bénévoles ont grandement renforcé notre travail terrain. Les analyses et recommandations stratégiques fournies étaient claires, pertinentes et immédiatement utiles. Un service professionnel et efficace du début à la fin.* »<br>
+- Jonathan Tanguay, directeur du cabinet de l’opposition à la ville de Lévis
 
 </details>
+
 
 <details>
 <summary>**Intelligence artificielle appliquée aux sciences sociales**</summary>
@@ -61,6 +65,19 @@ Notre co-fondateur Hubert Cadieux a co-écrit plusieurs articles sur l'analyse �
 <a href="https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:UeHWp8X0CEIC" target="_blank" style="color: #012326; font-weight: bold;">Lessons Learned: Citizen Forecasting, Candidate Resignations, and the 2024 US Presidential Election →</a><br><br>
 **2025** - Analyse de la montée du Parti Québécois avec l'Index Relatif de Confiance<br>
 <a href="https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:Tyk-4Ss8FVUC" target="_blank" style="color: #012326; font-weight: bold;">Electoral dynamics in Quebec: analyzing the rise of the Parti Québécois →</a>
+
+</details>
+
+<details>
+<summary>**Analyse du désir de parentalité chez les jeunes adultes canadiens**</summary>
+
+Notre co-fondateur Hubert Cadieux a co-écrit une série d'analyses sur les données d'enquête YMCA Canada 2024 explorant les facteurs qui influencent le désir d'avoir des enfants.<br><br>
+**Mars 2025** - Analyse des intentions de parentalité par statut relationnel et facteurs démographiques<br>
+<a href="https://cdnsurveystuff.substack.com/p/who-wants-to-have-children" target="_blank" style="color: #012326; font-weight: bold;">Who wants to have children? →</a><br><br>
+**Avril 2025** - Analyse comparative entre groupes culturels et communautaires<br>
+<a href="https://cdnsurveystuff.substack.com/p/culture-and-community-a-second-look" target="_blank" style="color: #012326; font-weight: bold;">Culture and community: a second look →</a><br><br>
+**Juin 2025** - Modélisation prédictive par forêt aléatoire<br>
+<a href="https://cdnsurveystuff.substack.com/p/resilience-well-being-and-economic" target="_blank" style="color: #012326; font-weight: bold;">Resilience, well-being and economic security →</a>
 
 </details>
 
