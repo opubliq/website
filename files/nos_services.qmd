@@ -16,9 +16,9 @@ editor: source
 
 <details>
 
-<summary><img src="../images/icons/questionnaire.png" class="service-icon"/> **Conception d'études sur mesure**</summary>
+<summary><img src="../images/icons/questionnaire.png" class="service-icon"/> **Sondages clé-en-main**</summary>
 
-**Questionnaires rigoureux**<br>Selon les meilleures pratiques de l'industrie<br><br> **Thèmes d'études variés**<br>Acceptabilité sociale, leviers d'influence, enjeux prioritaires des citoyens, intentions de vote<br><br> **Revue de littérature scientifique**<br>Contextualisation de vos enjeux avec la recherche existante<br><br> **Rapport complet avec recommandations**<br>Analyse détaillée et pistes d'action stratégiques
+**Prise en charge clé-en-main**<br>De la conception du questionnaire à l'analyse, on s'occupe de tout<br><br> **Coordination avec les panels**<br>On trouve le meilleur rapport qualité/prix et on gère la distribution<br><br> **Analyse et recommandations**<br>Croisements sociodémographiques, segments clés, pistes stratégiques<br><br> **Implication flexible**<br>Quelques validations par courriel ou rencontres de travail conjointes, selon vos préférences<br><br>**Revue de littérature scientifique**<br>Contextualisation de vos enjeux avec la recherche existante
 
 </details>
 :::
