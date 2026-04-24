@@ -30,7 +30,7 @@ Auteur de plusieurs publications académiques et boursier du Fonds de recherche 
 
 ![](../images/people/alex.png){width=80% fig-align="left" fig-alt="Alexandre Bouillon"}
 
-Co-fondateur d'Opubliq, Alexandre est candidat à la maîtrise en science politique à l'Université Laval. Spécialisé en comportement électoral et analyse de données, il s’intéresse particulièrement aux nouvelles méthode de récolte et de visualisation de données.
+Co-fondateur d'Opubliq, Alexandre est candidat à la maîtrise en science politique à l'Université Laval. Spécialisé en comportement électoral et analyse de données, il s’intéresse particulièrement aux nouvelles méthodes de récolte et de visualisation de données.
 
 À travers Opubliq, il met à profit son expertise en sciences sociales numériques pour outiller les acteurs politiques et contribuer à démocratiser l'opinion publique au sein de la société civile.
 
