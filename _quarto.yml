@@ -43,13 +43,15 @@ website:
       - text: "Nous contacter"
         href: files/contact.html
   page-footer:
-    left: "© 2025 Opubliq." 
-    right: 
+    left: "© 2025 Opubliq."
+    right:
       - text: "Accueil"
         href: index.qmd
       #- text: "Nos services"
       #  href: files/nos_services.html
       - text: "Contact"
         href: files/contact.html
+      - text: "Politique de confidentialité"
+        href: files/confidentialite.html
       #- text: "À propos"
       #  href: files/a_propos.html 
