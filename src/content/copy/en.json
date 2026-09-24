@@ -238,7 +238,7 @@
         "role": "Founder · Data scientist",
         "photoAlt": "Portrait of Hubert Cadieux",
         "bio": [
-          "Hubert Cadieux is a data scientist and the founder of Opubliq. A master's candidate in political science at Université Laval, he turns public opinion into concrete strategies using machine learning and quantitative analysis.",
+          "Hubert Cadieux is a data scientist and the founder of Opubliq. Holding a master's degree in political science from Université Laval, he turns public opinion into concrete strategies using machine learning and quantitative analysis.",
           "The author of several academic publications and a recipient of a Fonds de recherche du Québec scholarship, he has contributed to projects such as Datagotchi, Boussole électorale and Polimètre, and develops advanced analytics tools for businesses, non-profits, and political and public organizations."
         ],
         "email": "hubertcadieux@opubliq.com",
@@ -255,7 +255,7 @@
         "role": "Co-founder",
         "photoAlt": "Portrait of Alexandre Bouillon",
         "bio": [
-          "A co-founder of Opubliq, Alexandre is a master's candidate in political science at Université Laval. Specializing in electoral behaviour and data analysis, he is particularly interested in new methods of data collection and visualization.",
+          "A co-founder of Opubliq, Alexandre holds a master's degree in political science from Université Laval and is a PhD student in political science at Université de Montréal. Specializing in electoral behaviour and data analysis, he is particularly interested in new methods of data collection and visualization.",
           "Through Opubliq, he draws on his expertise in computational social science to equip political actors and help democratize public opinion within civil society."
         ],
         "email": "alexandrebouillon@opubliq.com",
