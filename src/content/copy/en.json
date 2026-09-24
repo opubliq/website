@@ -1,0 +1,350 @@
+{
+  "ui": {
+    "skipToContent": "Skip to content",
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "work": "Our work",
+      "team": "Team",
+      "about": "About",
+      "contact": "Contact us"
+    },
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "langSwitchLabel": "Lire cette page en français",
+    "langSwitchShort": "FR",
+    "footer": {
+      "tagline": "Public opinion data analysis",
+      "companyHeading": "Company",
+      "navHeading": "Navigation",
+      "followHeading": "Follow us",
+      "neqLabel": "Québec Enterprise Number (NEQ)",
+      "founderLabel": "Founder",
+      "privacy": "Privacy policy",
+      "rights": "All rights reserved."
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "scholar": "Google Scholar",
+      "twitter": "Twitter / X"
+    },
+    "externalLink": "(opens in a new tab)"
+  },
+
+  "company": {
+    "addressLines": ["7753 rue Foucher", "Montréal, Québec H2R 2K8", "Canada"],
+    "location": "Québec, Canada"
+  },
+
+  "cta": {
+    "consultation": "Free initial consultation",
+    "letsTalk": "Let's talk about your project",
+    "readyTitle": "Ready to get started?",
+    "readyText": "Let's discuss your project in a free initial consultation."
+  },
+
+  "home": {
+    "meta": {
+      "title": "Opubliq | Public Opinion Data Analysis",
+      "description": "Opubliq inc. turns your public opinion data into strategic action: data analysis, turnkey surveys, political campaign support and fundraising strategy. Québec, Canada."
+    },
+    "hero": {
+      "kicker": "Public opinion data analysis",
+      "title": "Turn your public opinion data into strategic action",
+      "lead": "Opubliq is a startup that turns data into strategic action, helping organizations understand and navigate public opinion.",
+      "prompt": "Want to learn more?",
+      "secondary": "Explore our services"
+    },
+    "help": {
+      "title": "How Opubliq can help",
+      "items": [
+        { "icon": "chart", "title": "Analyze your existing data", "text": "Get more out of the data you already have with expert analysis" },
+        { "icon": "clipboard", "title": "Design custom studies", "text": "Rigorous questionnaires built around your objectives" },
+        { "icon": "megaphone", "title": "Support your political campaigns", "text": "Electoral strategy grounded in field data" },
+        { "icon": "heart", "title": "Optimize your fundraising", "text": "Donor profiles and tailored strategies" }
+      ],
+      "link": "Explore our services"
+    },
+    "expertise": {
+      "title": "Team & expertise",
+      "text": "Our team combines expertise in political science, advanced programming, data analysis and hands-on field experience to support your strategic decisions.",
+      "teamLink": "Meet our team",
+      "workLink": "See our work"
+    },
+    "testimonialTitle": "What our clients say"
+  },
+
+  "services": {
+    "meta": {
+      "title": "Our Services | Opubliq",
+      "description": "Analysis of your existing data, turnkey surveys, strategic support for political campaigns, and fundraising strategy."
+    },
+    "title": "Our services",
+    "lead": "Let's turn your public opinion data into strategic action, together.",
+    "list": [
+      {
+        "icon": "chart",
+        "title": "Analysis of your existing data",
+        "items": [
+          { "title": "Make the most of your current data", "text": "Send us your data and your questions; we take care of the analysis" },
+          { "title": "Strategic points of influence", "text": "Identify where and how to effectively influence decision-makers" },
+          { "title": "Tailored action plan", "text": "Concrete next steps based on your results" },
+          { "title": "Sentiment and opinion analysis", "text": "Social media, public comments and other text sources" }
+        ]
+      },
+      {
+        "icon": "clipboard",
+        "title": "Turnkey surveys",
+        "items": [
+          { "title": "End-to-end management", "text": "From questionnaire design to analysis, we handle everything" },
+          { "title": "Panel coordination", "text": "We find the best value for money and manage distribution" },
+          { "title": "Analysis and recommendations", "text": "Sociodemographic cross-tabulations, key segments, strategic directions" },
+          { "title": "Flexible involvement", "text": "A few sign-offs by email or joint working sessions, whichever you prefer" },
+          { "title": "Scientific literature review", "text": "Putting your issues in the context of existing research" }
+        ]
+      },
+      {
+        "icon": "megaphone",
+        "title": "Strategic support for political campaigns",
+        "items": [
+          { "title": "Real-time dashboards", "text": "Interactive tracking of data collected in the field" },
+          { "title": "Electoral analysis", "text": "Positioning optimization, issue ownership, identification of potential voter pools" },
+          { "title": "Training and field data collection", "text": "Training your staff and volunteers to collect data in the field" },
+          { "title": "Communications optimization", "text": "Data-driven adjustments" }
+        ]
+      },
+      {
+        "icon": "heart",
+        "title": "Fundraising & financing",
+        "items": [
+          { "title": "Donor profiles", "text": "Demographic and behavioural analysis" },
+          { "title": "Data linkage", "text": "Your data combined with public sources (Élections Québec, etc.)" },
+          { "title": "Funding sources", "text": "Identification of potential opportunities" },
+          { "title": "Tailored strategies", "text": "Fundraising with ongoing monitoring" }
+        ]
+      }
+    ],
+    "why": {
+      "title": "Why work with Opubliq?",
+      "items": [
+        {
+          "title": "Field and scientific expertise",
+          "text": "Our team combines hands-on field experience, data analysis expertise and scientific rigour. We are equally at home in practice and theory, which allows us to deliver solid analysis and recommendations you can act on."
+        },
+        {
+          "title": "Partnerships and long-term engagements",
+          "text": "We welcome long-term engagements and strategic partnerships. Our goal is to build a lasting presence in the market by developing relationships of trust with our clients. We favour long-term collaborations that allow us to truly understand your challenges."
+        },
+        {
+          "title": "Flexibility and adaptability",
+          "text": "We adapt to your specific needs and budget. Whether you have a one-off project, particular budget constraints or tight deadlines, we adjust our approach to give you exactly what you need."
+        },
+        {
+          "title": "Investing in lasting relationships",
+          "text": "We prioritize building long-term relationships of trust over maximizing short-term profit. This approach lets us offer excellent value for money while developing exemplary case studies that benefit all our clients."
+        }
+      ]
+    }
+  },
+
+  "work": {
+    "meta": {
+      "title": "Our Work | Opubliq",
+      "description": "Opubliq engagements and research: strategic campaign support, artificial intelligence applied to the social sciences, electoral analysis and forecasting."
+    },
+    "title": "Our work",
+    "lead": "Client engagements in the field and published research in public opinion analysis.",
+    "caseStudy": {
+      "label": "Case study",
+      "title": "Strategic support | Repensons Lévis",
+      "client": "Repensons Lévis",
+      "clientUrl": "https://repensonslevis.com/",
+      "intro": "We recently supported {client}, a municipal political party in Lévis, Québec, through a comprehensive public opinion analysis and field strategy process.",
+      "mandateLabel": "Our mandate included:",
+      "mandate": [
+        "Custom design of a survey tailored to the municipal campaign",
+        "Setting up a real-time dashboard to track the data as it came in",
+        "Training the party's volunteers in voter identification (canvassing) techniques",
+        "Strategic analyses using advanced weighting methods to maximize the value of the data collected",
+        "Strategic recommendations based on these insights"
+      ],
+      "quote": "We received outstanding support that combined rigour with a keen understanding of our needs. The custom survey, the real-time dashboard and the training of our volunteers greatly strengthened our work on the ground. The strategic analyses and recommendations were clear, relevant and immediately useful. A professional and efficient service from start to finish.",
+      "quoteNote": "Translated from French.",
+      "quoteAuthor": "Jonathan Tanguay",
+      "quoteRole": "Chief of Staff, Official Opposition, City of Lévis"
+    },
+    "researchTitle": "Research and publications",
+    "research": [
+      {
+        "title": "Artificial intelligence applied to the social sciences",
+        "intro": "Our co-founders Hubert Cadieux and Alexandre Bouillon have co-authored research on the use of large language models (LLMs) for political analysis.",
+        "items": [
+          { "date": "2025", "text": "Development of a standardized data extraction methodology using LLMs", "linkTitle": "Prompting the Machine: Introducing an LLM Data Extraction Method", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:eQOLeE2rZwMC" },
+          { "date": "2024", "text": "Assessing political bias in GPT-4o's classification of political parties", "linkTitle": "Ain't no party like a GPT party: assessing OpenAI's GPT political alignment classification", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:IjCSPb-OGe4C" }
+        ]
+      },
+      {
+        "title": "Analysis of election promises",
+        "intro": "Our co-founder Hubert Cadieux has co-authored research on evaluating and measuring political pledges.",
+        "items": [
+          { "date": "2025", "text": "Analysis of the 697 promises made by Justin Trudeau's minority governments", "linkTitle": "Committing without Counting? Untangling the 697 Promises", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:Y0pCki6q_DkC" },
+          { "date": "2024", "text": "Review of methods for measuring the salience of election pledges", "linkTitle": "Pledge Salience: A Scoping Review of a Non-consensual Concept", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:qjMakFHDy7sC" }
+        ]
+      },
+      {
+        "title": "Electoral analysis and forecasting",
+        "intro": "Our co-founder Hubert Cadieux has co-authored several articles on electoral analysis and forecasting methods.",
+        "items": [
+          { "date": "2022", "text": "Development of the Relative Confidence Index to measure the growth potential of the Conservative Party of Quebec", "linkTitle": "Sur le potentiel de croissance du Parti conservateur du Québec (in French)", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:u5HHmVD_uO8C" },
+          { "date": "2025", "text": "Applying citizen forecasting methods to the 2024 US presidential election", "linkTitle": "Lessons Learned: Citizen Forecasting, Candidate Resignations, and the 2024 US Presidential Election", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:UeHWp8X0CEIC" },
+          { "date": "2025", "text": "Analyzing the rise of the Parti Québécois with the Relative Confidence Index", "linkTitle": "Electoral dynamics in Quebec: analyzing the rise of the Parti Québécois", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:Tyk-4Ss8FVUC" }
+        ]
+      },
+      {
+        "title": "The desire for parenthood among young Canadian adults",
+        "intro": "Our co-founder Hubert Cadieux co-authored a series of analyses of YMCA Canada's 2024 survey data exploring the factors that influence the desire to have children.",
+        "items": [
+          { "date": "March 2025", "text": "Parenthood intentions by relationship status and demographic factors", "linkTitle": "Who wants to have children?", "url": "https://cdnsurveystuff.substack.com/p/who-wants-to-have-children" },
+          { "date": "April 2025", "text": "Comparative analysis across cultural and community groups", "linkTitle": "Culture and community: a second look", "url": "https://cdnsurveystuff.substack.com/p/culture-and-community-a-second-look" },
+          { "date": "June 2025", "text": "Predictive modelling using random forests", "linkTitle": "Resilience, well-being and economic security", "url": "https://cdnsurveystuff.substack.com/p/resilience-well-being-and-economic" }
+        ]
+      },
+      {
+        "title": "Social acceptability of climate policies",
+        "intro": "Our co-founder Hubert Cadieux co-authored an analysis of the impact of fairness measures in the green transition.",
+        "items": [
+          { "date": "2025", "text": "Survey of 1,500 Canadians on the social acceptability of climate policies", "linkTitle": "Just Transition and Social Acceptability: A Canadian Case", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:W7OEmFMy1HYC" }
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Want to see your project here?",
+      "text": "Contact us to discuss your public opinion challenges and work with us on analyses that make a difference."
+    }
+  },
+
+  "team": {
+    "meta": {
+      "title": "Our Team | Opubliq",
+      "description": "Hubert Cadieux, Alexandre Bouillon and Nicolas Ebnoether-Noel: political science, data science and hands-on field experience."
+    },
+    "title": "Our team",
+    "lead": "Our team combines expertise in political science, advanced programming, data analysis and hands-on field experience to support your strategic decisions.",
+    "people": [
+      {
+        "id": "hubert",
+        "name": "Hubert Cadieux",
+        "role": "Founder · Data scientist",
+        "photoAlt": "Portrait of Hubert Cadieux",
+        "bio": [
+          "Hubert Cadieux is a data scientist and the founder of Opubliq. A master's candidate in political science at Université Laval, he turns public opinion into concrete strategies using machine learning and quantitative analysis.",
+          "The author of several academic publications and a recipient of a Fonds de recherche du Québec scholarship, he has contributed to projects such as Datagotchi, Boussole électorale and Polimètre, and develops advanced analytics tools for businesses, non-profits, and political and public organizations."
+        ],
+        "email": "hubertcadieux@opubliq.com",
+        "links": [
+          { "type": "linkedin", "url": "https://www.linkedin.com/in/hubert-cadieux-7172571a0" },
+          { "type": "twitter", "url": "https://twitter.com/HubCadieux25" },
+          { "type": "github", "url": "https://github.com/hubcad25" },
+          { "type": "scholar", "url": "https://scholar.google.com/citations?user=VF6HfPoAAAAJ&hl=fr&oi=ao" }
+        ]
+      },
+      {
+        "id": "alexandre",
+        "name": "Alexandre Bouillon",
+        "role": "Co-founder",
+        "photoAlt": "Portrait of Alexandre Bouillon",
+        "bio": [
+          "A co-founder of Opubliq, Alexandre is a master's candidate in political science at Université Laval. Specializing in electoral behaviour and data analysis, he is particularly interested in new methods of data collection and visualization.",
+          "Through Opubliq, he draws on his expertise in computational social science to equip political actors and help democratize public opinion within civil society."
+        ],
+        "email": "alexandrebouillon@opubliq.com",
+        "links": [
+          { "type": "linkedin", "url": "https://www.linkedin.com/in/alexandrebouillon/" },
+          { "type": "twitter", "url": "https://x.com/Boubou7654" },
+          { "type": "github", "url": "https://github.com/AlexBouillon" }
+        ]
+      },
+      {
+        "id": "nicolas",
+        "name": "Nicolas Ebnoether-Noel",
+        "role": "Co-founder",
+        "photoAlt": "Portrait of Nicolas Ebnoether-Noel",
+        "bio": [
+          "A co-founder of Opubliq, Nicolas Ebnoether-Noel holds a bachelor's degree in history and has more than a decade of experience in polling, public opinion analysis and strategic targeting.",
+          "He has worked with a wide range of political, institutional and community organizations to define and implement optimization strategies grounded in data analysis."
+        ],
+        "email": "nicolasebnoethernoel@opubliq.com",
+        "links": [
+          { "type": "linkedin", "url": "https://www.linkedin.com/in/nicolas-ebnoether-noel-ba0598254/" }
+        ]
+      }
+    ]
+  },
+
+  "about": {
+    "meta": {
+      "title": "About | Opubliq inc.",
+      "description": "Opubliq inc. is a Québec-based public opinion data analysis company founded by Hubert Cadieux. Québec Enterprise Number (NEQ) 1181274987. Head office in Montréal, Québec, Canada."
+    },
+    "title": "About Opubliq",
+    "lead": "Opubliq inc. is a Québec-based company specializing in public opinion data analysis. We turn data into strategic action to help organizations understand and navigate public opinion.",
+    "body": [
+      "We work with public and para-public organizations — municipalities, non-profits, labour unions, political parties and public affairs agencies — through the analysis of existing data, turnkey surveys and strategic support.",
+      "Opubliq also develops technology products, including a self-serve survey platform and, in the longer term, an AI-based platform for estimating public opinion that stems from our research and development work."
+    ],
+    "factsTitle": "Company information",
+    "facts": {
+      "legalName": "Legal name",
+      "neq": "Québec Enterprise Number (NEQ)",
+      "founder": "Founder",
+      "founded": "Founded",
+      "headOffice": "Head office",
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "registryNote": "Registered with the Registraire des entreprises du Québec (Québec enterprise registry).",
+    "teamLink": "Meet the team",
+    "contactLink": "Contact us"
+  },
+
+  "contact": {
+    "meta": {
+      "title": "Contact Us | Opubliq",
+      "description": "Reach Opubliq by email (info@opubliq.com) or by phone at (438) 825-3958. Free initial consultation."
+    },
+    "title": "How to reach us",
+    "lead": "Let's turn your public opinion data into strategic action, together",
+    "email": { "title": "Email", "note": "Reply within 24 hours" },
+    "phone": { "title": "Phone and text messages", "note": "Monday to Friday, 9 a.m. to 6 p.m. (Eastern Time)" },
+    "linkedin": { "title": "LinkedIn", "note": "Follow our news" },
+    "office": { "title": "Head office" },
+    "consultation": {
+      "title": "Free initial consultation",
+      "text": "Take advantage of a free consultation to assess your needs and define the best strategy",
+      "button": "Email us",
+      "mailSubject": "Free initial consultation"
+    },
+    "process": {
+      "title": "How we work together",
+      "steps": [
+        { "title": "Free initial consultation", "text": "Assessing your needs and defining objectives" },
+        { "title": "Tailored proposal", "text": "Detailed action plan with methodology and timeline" },
+        { "title": "Execution and follow-up", "text": "Implementation with regular reporting and adjustments" }
+      ]
+    }
+  },
+
+  "privacy": {
+    "meta": {
+      "title": "Privacy Policy | Opubliq",
+      "description": "How Opubliq collects, uses and protects your personal information."
+    }
+  },
+
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist or has been moved.",
+    "home": "Back to home"
+  }
+}

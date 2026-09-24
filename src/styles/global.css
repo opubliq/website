@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   DESIGN TOKENS: the single place to adjust the look of the site.
+   Every token below becomes a Tailwind utility automatically
+   (e.g. --color-ink -> bg-ink / text-ink / border-ink,
+         --font-display -> font-display, --radius-card -> rounded-card).
+   Brand colours come from the Opubliq logo and product identity.
+   ========================================================================== */
+@theme {
+  /* Brand */
+  --color-ink: #012326;          /* deep teal-navy: header, hero, headings */
+  --color-ink-soft: #0a3a3f;     /* raised surfaces on dark backgrounds */
+  --color-brand: #0d8491;        /* logo teal: icons, accents, large text */
+  --color-brand-strong: #0a6e79; /* logo teal, darkened for body-size text on white (AA) */
+  --color-brand-soft: #56d1d7;   /* light logo teal: primary buttons, highlights on dark */
+  --color-coral: #f0695a;        /* secondary accent, used sparingly */
+
+  /* Neutrals */
+  --color-surface: #ffffff;
+  --color-surface-alt: #f4f6f7;  /* alternating section background */
+  --color-line: #e2e8ea;         /* borders and dividers */
+  --color-text: #12211f;         /* body text */
+  --color-muted: #4b5f62;        /* secondary text (6.7:1 on white) */
+  --color-on-dark-muted: #a9c1c3;/* secondary text on ink backgrounds */
+
+  /* Typography */
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Inter Tight", "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Shape */
+  --radius-card: 1rem;
+  --radius-button: 0.625rem;
+
+  /* Layout */
+  --container-page: 72rem;       /* max content width (max-w-page) */
+  --container-prose: 44rem;      /* long-form text width (max-w-prose) */
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: var(--color-text);
+    background: var(--color-surface);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    color: var(--color-ink);
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+  p { text-wrap: pretty; }
+  :focus-visible {
+    outline: 3px solid var(--color-brand-soft);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  ::selection { background: color-mix(in oklab, var(--color-brand-soft) 45%, white); }
+}
+
+/* Small set of reusable component classes. Keep visual decisions here or in tokens. */
+@layer components {
+  .container-page {
+    width: 100%;
+    max-width: var(--container-page);
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+  @media (min-width: 640px) { .container-page { padding-inline: 1.5rem; } }
+
+  .kicker {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-brand-strong);
+  }
+
+  .card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-card);
+    box-shadow: 0 8px 24px -20px rgb(1 35 38 / 0.45);
+  }
+
+  .link {
+    color: var(--color-brand-strong);
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    text-decoration-color: color-mix(in oklab, var(--color-brand-strong) 40%, transparent);
+  }
+  .link:hover { text-decoration-color: currentColor; }
+
+  /* Long-form Markdown (privacy policy) */
+  .prose-legal { max-width: var(--container-prose); line-height: 1.7; }
+  .prose-legal h2 { font-size: 1.35rem; font-weight: 700; margin: 2.5rem 0 0.75rem; }
+  .prose-legal p, .prose-legal ul { margin: 0 0 1rem; }
+  .prose-legal ul { list-style: disc; padding-left: 1.25rem; }
+  .prose-legal li { margin: 0.35rem 0; }
+  .prose-legal a { color: var(--color-brand-strong); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+  .prose-legal strong { color: var(--color-ink); }
+}
+
+/* Soft brand glow used on dark bands (hero, CTA). Remove or tone down here. */
+@layer components {
+  .hero-glow {
+    background:
+      radial-gradient(900px 420px at 8% -20%, color-mix(in oklab, var(--color-brand-soft) 22%, transparent), transparent 60%),
+      radial-gradient(700px 360px at 100% 120%, color-mix(in oklab, var(--color-brand) 30%, transparent), transparent 65%);
+  }
+}

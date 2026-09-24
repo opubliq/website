@@ -1,0 +1,80 @@
+---
+import { Image } from 'astro:assets';
+import logo from '../assets/logos/Opubliq_V2_couleur-transparent.png';
+import MobileNav from './MobileNav.tsx';
+import { getCopy, navKeys, otherLang, path, langTags, type Lang, type RouteKey } from '../i18n';
+
+interface Props {
+  lang: Lang;
+  routeKey: RouteKey;
+}
+const { lang, routeKey } = Astro.props;
+const t = getCopy(lang);
+const alt = otherLang(lang);
+
+const links = navKeys.map((key) => ({
+  key,
+  href: path(key, lang),
+  label: t.ui.nav[key],
+  current: key === routeKey,
+}));
+const langLink = {
+  href: path(routeKey, alt),
+  label: t.ui.langSwitchLabel,
+  short: t.ui.langSwitchShort,
+  hreflang: langTags[alt],
+};
+---
+<header class="sticky top-0 z-50 border-b border-white/10 bg-ink">
+  <div class="container-page relative flex h-16 items-center justify-between gap-6 md:h-18">
+    <a href={path('home', lang)} class="shrink-0" aria-label={`Opubliq — ${t.ui.nav.home}`}>
+      <Image src={logo} alt="Opubliq" height={44} densities={[1, 2]} class="h-10 w-auto md:h-11" loading="eager" />
+    </a>
+
+    <nav class="hidden items-center gap-1 md:flex" aria-label="Navigation">
+      {links.filter((l) => l.key !== 'contact').map((l) => (
+        <a
+          href={l.href}
+          aria-current={l.current ? 'page' : undefined}
+          class:list={[
+            'rounded-button px-3 py-2 text-sm font-medium transition-colors',
+            l.current ? 'text-brand-soft' : 'text-white/85 hover:text-white',
+          ]}
+        >{l.label}</a>
+      ))}
+    </nav>
+
+    <div class="hidden items-center gap-3 md:flex">
+      <a
+        href={langLink.href}
+        hreflang={langLink.hreflang}
+        lang={langLink.hreflang}
+        aria-label={langLink.label}
+        title={langLink.label}
+        class="rounded-button border border-white/25 px-2.5 py-1.5 text-xs font-semibold tracking-wider text-white/85 transition-colors hover:border-brand-soft hover:text-brand-soft"
+      >{langLink.short}</a>
+      <a
+        href={path('contact', lang)}
+        aria-current={routeKey === 'contact' ? 'page' : undefined}
+        class="rounded-button bg-brand-soft px-4 py-2 text-sm font-semibold text-ink transition-colors hover:bg-white"
+      >{t.ui.nav.contact}</a>
+    </div>
+
+    <div class="flex items-center gap-2 md:hidden">
+      <a
+        href={langLink.href}
+        hreflang={langLink.hreflang}
+        lang={langLink.hreflang}
+        aria-label={langLink.label}
+        class="rounded-button border border-white/25 px-2.5 py-1.5 text-xs font-semibold tracking-wider text-white/85"
+      >{langLink.short}</a>
+      <MobileNav
+        client:media="(max-width: 767px)"
+        links={links.map(({ href, label, current }) => ({ href, label, current }))}
+        lang={langLink}
+        openLabel={t.ui.menuOpen}
+        closeLabel={t.ui.menuClose}
+      />
+    </div>
+  </div>
+</header>

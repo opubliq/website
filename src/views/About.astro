@@ -1,0 +1,69 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import Icon from '../components/Icon.astro';
+import company from '../data/company.json';
+import { getCopy, path, type Lang } from '../i18n';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = getCopy(lang);
+const a = t.about;
+---
+<BaseLayout lang={lang} routeKey="about" title={a.meta.title} description={a.meta.description}>
+  <PageHero title={a.title} lead={a.lead} />
+
+  <section class="py-16 md:py-20">
+    <div class="container-page grid items-start gap-12 lg:grid-cols-12">
+      <div class="space-y-5 text-lg leading-relaxed text-muted lg:col-span-6">
+        {a.body.map((para) => <p>{para}</p>)}
+        <div class="flex flex-wrap gap-x-6 gap-y-3 pt-4 text-base">
+          <a href={path('team', lang)} class="link inline-flex items-center gap-1.5">{a.teamLink} <Icon name="arrowRight" class="size-4" /></a>
+          <a href={path('contact', lang)} class="link inline-flex items-center gap-1.5">{a.contactLink} <Icon name="arrowRight" class="size-4" /></a>
+        </div>
+      </div>
+
+      <aside class="card p-7 md:p-8 lg:col-span-6" aria-labelledby="facts-title">
+        <div class="flex items-center gap-3">
+          <span class="inline-flex size-10 items-center justify-center rounded-xl bg-ink text-brand-soft">
+            <Icon name="building" class="size-5" />
+          </span>
+          <h2 id="facts-title" class="text-xl font-bold">{a.factsTitle}</h2>
+        </div>
+        <dl class="mt-6 divide-y divide-line text-sm">
+          <div class="grid gap-1 py-3 sm:grid-cols-5 sm:gap-4">
+            <dt class="text-muted sm:col-span-2">{a.facts.legalName}</dt>
+            <dd class="font-semibold text-ink sm:col-span-3">{company.legalName}</dd>
+          </div>
+          <div class="grid gap-1 py-3 sm:grid-cols-5 sm:gap-4">
+            <dt class="text-muted sm:col-span-2">{a.facts.neq}</dt>
+            <dd class="font-semibold text-ink sm:col-span-3">{company.neq}</dd>
+          </div>
+          <div class="grid gap-1 py-3 sm:grid-cols-5 sm:gap-4">
+            <dt class="text-muted sm:col-span-2">{a.facts.founder}</dt>
+            <dd class="font-semibold text-ink sm:col-span-3">{company.founder}</dd>
+          </div>
+          <div class="grid gap-1 py-3 sm:grid-cols-5 sm:gap-4">
+            <dt class="text-muted sm:col-span-2">{a.facts.founded}</dt>
+            <dd class="font-semibold text-ink sm:col-span-3">{company.foundingYear}</dd>
+          </div>
+          <div class="grid gap-1 py-3 sm:grid-cols-5 sm:gap-4">
+            <dt class="text-muted sm:col-span-2">{a.facts.headOffice}</dt>
+            <dd class="text-ink sm:col-span-3">
+              <address class="not-italic">{t.company.addressLines.map((line) => <span class="block">{line}</span>)}</address>
+            </dd>
+          </div>
+          <div class="grid gap-1 py-3 sm:grid-cols-5 sm:gap-4">
+            <dt class="text-muted sm:col-span-2">{a.facts.email}</dt>
+            <dd class="sm:col-span-3"><a class="link" href={`mailto:${company.email}`}>{company.email}</a></dd>
+          </div>
+          <div class="grid gap-1 py-3 sm:grid-cols-5 sm:gap-4">
+            <dt class="text-muted sm:col-span-2">{a.facts.phone}</dt>
+            <dd class="sm:col-span-3"><a class="link" href={`tel:${company.phoneE164}`}>{company.phoneDisplay}</a></dd>
+          </div>
+        </dl>
+        <p class="mt-5 text-xs text-muted">{a.registryNote}</p>
+      </aside>
+    </div>
+  </section>
+</BaseLayout>

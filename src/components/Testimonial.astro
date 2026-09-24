@@ -1,0 +1,24 @@
+---
+import Icon from './Icon.astro';
+
+interface Props {
+  quote: string;
+  author: string;
+  role: string;
+  note?: string;
+  lang: string;
+}
+const { quote, author, role, note, lang } = Astro.props;
+const [open, close] = lang === 'fr' ? ['«\u00a0', '\u00a0»'] : ['“', '”'];
+---
+<figure class="card relative p-8 md:p-10">
+  <Icon name="quote" class="size-8 text-brand-soft" />
+  <blockquote class="mt-4 text-lg leading-relaxed text-ink md:text-xl">
+    <p>{open}{quote}{close}</p>
+  </blockquote>
+  <figcaption class="mt-6 text-sm">
+    <span class="font-semibold text-ink">{author}</span>
+    <span class="text-muted"> — {role}</span>
+    {note && <span class="mt-1 block text-xs italic text-muted">{note}</span>}
+  </figcaption>
+</figure>

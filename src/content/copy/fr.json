@@ -1,0 +1,350 @@
+{
+  "ui": {
+    "skipToContent": "Aller au contenu",
+    "nav": {
+      "home": "Accueil",
+      "services": "Services",
+      "work": "Réalisations",
+      "team": "Équipe",
+      "about": "À propos",
+      "contact": "Nous contacter"
+    },
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu",
+    "langSwitchLabel": "Read this page in English",
+    "langSwitchShort": "EN",
+    "footer": {
+      "tagline": "Analyse de données d'opinion publique",
+      "companyHeading": "Entreprise",
+      "navHeading": "Navigation",
+      "followHeading": "Suivez-nous",
+      "neqLabel": "NEQ",
+      "founderLabel": "Fondateur",
+      "privacy": "Politique de confidentialité",
+      "rights": "Tous droits réservés."
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "scholar": "Google Scholar",
+      "twitter": "Twitter / X"
+    },
+    "externalLink": "(nouvel onglet)"
+  },
+
+  "company": {
+    "addressLines": ["7753, rue Foucher", "Montréal (Québec) H2R 2K8", "Canada"],
+    "location": "Québec, Canada"
+  },
+
+  "cta": {
+    "consultation": "Première consultation gratuite",
+    "letsTalk": "Parlons de votre projet",
+    "readyTitle": "Prêt à commencer ?",
+    "readyText": "Discutons de votre projet lors d'une première consultation gratuite."
+  },
+
+  "home": {
+    "meta": {
+      "title": "Opubliq | Analyse de données d'opinion publique",
+      "description": "Opubliq inc. transforme vos données d'opinion publique en actions stratégiques : analyse de données, sondages clé en main, accompagnement de campagnes et financement. Québec, Canada."
+    },
+    "hero": {
+      "kicker": "Analyse de données d'opinion publique",
+      "title": "Transformez vos données d'opinion publique en actions stratégiques",
+      "lead": "Opubliq est une startup spécialisée dans la transformation de données en actions stratégiques pour comprendre et naviguer l'opinion publique.",
+      "prompt": "Vous voulez en savoir plus?",
+      "secondary": "Découvrez nos services"
+    },
+    "help": {
+      "title": "Comment Opubliq peut vous aider",
+      "items": [
+        { "icon": "chart", "title": "Analyser vos données existantes", "text": "Exploitez vos données avec nos analyses expertes" },
+        { "icon": "clipboard", "title": "Concevoir des études sur mesure", "text": "Questionnaires rigoureux selon vos objectifs" },
+        { "icon": "megaphone", "title": "Accompagner vos campagnes politiques", "text": "Stratégies électorales avec données terrain" },
+        { "icon": "heart", "title": "Optimiser votre financement", "text": "Profils de donateurs et stratégies personnalisées" }
+      ],
+      "link": "Découvrez nos services"
+    },
+    "expertise": {
+      "title": "Équipe & expertise",
+      "text": "Notre équipe combine expertise en science politique, programmation avancée, analyse de données et expérience terrain pour vous accompagner dans vos décisions stratégiques.",
+      "teamLink": "Découvrez notre équipe",
+      "workLink": "Voir nos réalisations"
+    },
+    "testimonialTitle": "Ils nous ont fait confiance"
+  },
+
+  "services": {
+    "meta": {
+      "title": "Nos services | Opubliq",
+      "description": "Analyse de données existantes, sondages clé en main, accompagnement stratégique de campagnes politiques, financement et levée de fonds."
+    },
+    "title": "Nos services",
+    "lead": "Transformons ensemble vos données d'opinion publique en actions stratégiques.",
+    "list": [
+      {
+        "icon": "chart",
+        "title": "Analyse de vos données existantes",
+        "items": [
+          { "title": "Exploitez vos données actuelles", "text": "Fournissez vos données et vos questions, on s'occupe de l'analyse" },
+          { "title": "Points d'influence stratégiques", "text": "Identifier où et comment influencer efficacement les décideurs" },
+          { "title": "Plan d'action personnalisé", "text": "Étapes concrètes à suivre selon vos résultats" },
+          { "title": "Analyse sentiment et opinion", "text": "Réseaux sociaux, commentaires publics et autres sources textuelles" }
+        ]
+      },
+      {
+        "icon": "clipboard",
+        "title": "Sondages clé en main",
+        "items": [
+          { "title": "Prise en charge clé en main", "text": "De la conception du questionnaire à l'analyse, on s'occupe de tout" },
+          { "title": "Coordination avec les panels", "text": "On trouve le meilleur rapport qualité/prix et on gère la distribution" },
+          { "title": "Analyse et recommandations", "text": "Croisements sociodémographiques, segments clés, pistes stratégiques" },
+          { "title": "Implication flexible", "text": "Quelques validations par courriel ou rencontres de travail conjointes, selon vos préférences" },
+          { "title": "Revue de littérature scientifique", "text": "Contextualisation de vos enjeux avec la recherche existante" }
+        ]
+      },
+      {
+        "icon": "megaphone",
+        "title": "Accompagnement stratégique de campagnes politiques",
+        "items": [
+          { "title": "Tableaux de bord temps réel", "text": "Suivi interactif des données récoltées sur le terrain" },
+          { "title": "Analyses électorales", "text": "Optimisation du positionnement, appropriation d'enjeux, identification de bassins d'électeurs potentiels" },
+          { "title": "Formation et collecte terrain", "text": "Formation de vos équipes/bénévoles pour récolter des données sur le terrain" },
+          { "title": "Optimisation communications", "text": "Ajustements basés sur les données" }
+        ]
+      },
+      {
+        "icon": "heart",
+        "title": "Financement & levée de fonds",
+        "items": [
+          { "title": "Profils de donateurs", "text": "Analyses démographiques et comportementales" },
+          { "title": "Croisement de données", "text": "Vos données + sources publiques (Élections Québec, etc.)" },
+          { "title": "Sources de financement", "text": "Identification d'opportunités potentielles" },
+          { "title": "Stratégies personnalisées", "text": "Collecte de fonds avec suivi continu" }
+        ]
+      }
+    ],
+    "why": {
+      "title": "Pourquoi travailler avec Opubliq ?",
+      "items": [
+        {
+          "title": "Expertise terrain & scientifique",
+          "text": "Notre équipe combine expérience terrain concrète, expertise en analyse de données et rigueur scientifique. Nous maîtrisons autant la pratique que la théorie, ce qui nous permet de vous offrir des analyses solides et des recommandations applicables."
+        },
+        {
+          "title": "Partenariats & mandats à long terme",
+          "text": "Nous sommes ouverts aux longs mandats et partenariats stratégiques. Notre objectif est de nous établir durablement dans le marché en créant des relations de confiance avec nos clients. Nous privilégions les collaborations à long terme qui nous permettent de vraiment comprendre vos enjeux."
+        },
+        {
+          "title": "Flexibilité & adaptation",
+          "text": "Nous sommes flexibles et adaptatifs selon vos besoins spécifiques et votre budget. Que vous ayez un projet ponctuel, des contraintes budgétaires particulières ou des échéanciers serrés, nous ajustons notre approche pour vous offrir exactement ce dont vous avez besoin."
+        },
+        {
+          "title": "Investissement dans les relations durables",
+          "text": "Nous privilégions la construction de relations de confiance à long terme plutôt que la maximisation des profits à court terme. Cette approche nous permet d'offrir un excellent rapport qualité-prix tout en développant des études de cas exemplaires qui bénéficient à tous nos clients."
+        }
+      ]
+    }
+  },
+
+  "work": {
+    "meta": {
+      "title": "Nos réalisations | Opubliq",
+      "description": "Mandats et recherches d'Opubliq : accompagnement stratégique, intelligence artificielle appliquée aux sciences sociales, analyses électorales et prévisions."
+    },
+    "title": "Nos réalisations",
+    "lead": "Des mandats sur le terrain et des recherches publiées en analyse de l'opinion publique.",
+    "caseStudy": {
+      "label": "Étude de cas",
+      "title": "Accompagnement stratégique | Repensons Lévis",
+      "client": "Repensons Lévis",
+      "clientUrl": "https://repensonslevis.com/",
+      "intro": "Nous avons récemment accompagné {client} dans une démarche complète d'analyse d'opinion publique et de stratégie terrain.",
+      "mandateLabel": "Notre mandat comprenait :",
+      "mandate": [
+        "Conception sur mesure d'un sondage adapté à la campagne municipale",
+        "Mise en place d'un tableau de bord temps réel pour suivre l'évolution des données",
+        "Formation des bénévoles du parti aux techniques de pointage terrain",
+        "Analyses stratégiques utilisant des méthodes de pondération avancées pour maximiser la valeur des données récoltées",
+        "Recommandations stratégiques basées sur ces insights"
+      ],
+      "quote": "Nous avons reçu un accompagnement d’une grande qualité, alliant rigueur et compréhension fine de nos besoins. Le sondage sur mesure, le tableau de bord en temps réel et la formation de nos bénévoles ont grandement renforcé notre travail terrain. Les analyses et recommandations stratégiques fournies étaient claires, pertinentes et immédiatement utiles. Un service professionnel et efficace du début à la fin.",
+      "quoteNote": "",
+      "quoteAuthor": "Jonathan Tanguay",
+      "quoteRole": "Directeur du cabinet de l’opposition à la ville de Lévis"
+    },
+    "researchTitle": "Recherche et publications",
+    "research": [
+      {
+        "title": "Intelligence artificielle appliquée aux sciences sociales",
+        "intro": "Nos co-fondateurs Hubert Cadieux et Alexandre Bouillon ont co-écrit des recherches sur l'utilisation des LLM pour l'analyse politique.",
+        "items": [
+          { "date": "2025", "text": "Développement d'une méthodologie standardisée d'extraction de données avec les LLM", "linkTitle": "Prompting the Machine: Introducing an LLM Data Extraction Method", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:eQOLeE2rZwMC" },
+          { "date": "2024", "text": "Évaluation des biais politiques dans la classification de partis par GPT-4o", "linkTitle": "Ain't no party like a GPT party: assessing OpenAI's GPT political alignment classification", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:IjCSPb-OGe4C" }
+        ]
+      },
+      {
+        "title": "Analyse des promesses électorales",
+        "intro": "Notre co-fondateur Hubert Cadieux a co-écrit des recherches sur l'évaluation et la mesure des promesses politiques.",
+        "items": [
+          { "date": "2025", "text": "Analyse des 697 promesses des gouvernements minoritaires de Justin Trudeau", "linkTitle": "Committing without Counting? Untangling the 697 Promises", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:Y0pCki6q_DkC" },
+          { "date": "2024", "text": "Revue systématique des méthodes de mesure de l'importance des promesses électorales", "linkTitle": "Pledge Salience: A Scoping Review of a Non-consensual Concept", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:qjMakFHDy7sC" }
+        ]
+      },
+      {
+        "title": "Analyses électorales et prévisions",
+        "intro": "Notre co-fondateur Hubert Cadieux a co-écrit plusieurs articles sur l'analyse électorale et les méthodes de prévision.",
+        "items": [
+          { "date": "2022", "text": "Développement de l'Index Relatif de Confiance pour mesurer le potentiel de croissance du Parti conservateur du Québec", "linkTitle": "Sur le potentiel de croissance du Parti conservateur du Québec", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:u5HHmVD_uO8C" },
+          { "date": "2025", "text": "Application de méthodes de prévision citoyenne à l'élection présidentielle américaine 2024", "linkTitle": "Lessons Learned: Citizen Forecasting, Candidate Resignations, and the 2024 US Presidential Election", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:UeHWp8X0CEIC" },
+          { "date": "2025", "text": "Analyse de la montée du Parti Québécois avec l'Index Relatif de Confiance", "linkTitle": "Electoral dynamics in Quebec: analyzing the rise of the Parti Québécois", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:Tyk-4Ss8FVUC" }
+        ]
+      },
+      {
+        "title": "Analyse du désir de parentalité chez les jeunes adultes canadiens",
+        "intro": "Notre co-fondateur Hubert Cadieux a co-écrit une série d'analyses sur les données d'enquête YMCA Canada 2024 explorant les facteurs qui influencent le désir d'avoir des enfants.",
+        "items": [
+          { "date": "Mars 2025", "text": "Analyse des intentions de parentalité par statut relationnel et facteurs démographiques", "linkTitle": "Who wants to have children?", "url": "https://cdnsurveystuff.substack.com/p/who-wants-to-have-children" },
+          { "date": "Avril 2025", "text": "Analyse comparative entre groupes culturels et communautaires", "linkTitle": "Culture and community: a second look", "url": "https://cdnsurveystuff.substack.com/p/culture-and-community-a-second-look" },
+          { "date": "Juin 2025", "text": "Modélisation prédictive par forêt aléatoire", "linkTitle": "Resilience, well-being and economic security", "url": "https://cdnsurveystuff.substack.com/p/resilience-well-being-and-economic" }
+        ]
+      },
+      {
+        "title": "Acceptabilité sociale des politiques climatiques",
+        "intro": "Notre co-fondateur Hubert Cadieux a co-écrit une analyse sur l'impact des mesures d'équité dans la transition écologique.",
+        "items": [
+          { "date": "2025", "text": "Enquête auprès de 1 500 Canadiens sur l'acceptabilité sociale des politiques climatiques", "linkTitle": "Just Transition and Social Acceptability: A Canadian Case", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=VF6HfPoAAAAJ&citation_for_view=VF6HfPoAAAAJ:W7OEmFMy1HYC" }
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Vous voulez voir votre projet ici ?",
+      "text": "Contactez-nous pour discuter de vos enjeux d'opinion publique et développer ensemble des analyses qui feront la différence."
+    }
+  },
+
+  "team": {
+    "meta": {
+      "title": "Notre équipe | Opubliq",
+      "description": "Hubert Cadieux, Alexandre Bouillon et Nicolas Ebnoether-Noel : science politique, science des données et expérience terrain."
+    },
+    "title": "Notre équipe",
+    "lead": "Notre équipe combine expertise en science politique, programmation avancée, analyse de données et expérience terrain pour vous accompagner dans vos décisions stratégiques.",
+    "people": [
+      {
+        "id": "hubert",
+        "name": "Hubert Cadieux",
+        "role": "Fondateur · Scientifique de données",
+        "photoAlt": "Portrait d'Hubert Cadieux",
+        "bio": [
+          "Hubert Cadieux est un scientifique de données et fondateur d'Opubliq. Candidat à la maîtrise en science politique à l'Université Laval, il transforme l'opinion publique en stratégies concrètes grâce à l'apprentissage automatique et l'analyse quantitative.",
+          "Auteur de plusieurs publications académiques et boursier du Fonds de recherche du Québec, il a contribué à des projets comme Datagotchi, Boussole électorale et Polimètre, et développe des outils d'analyse avancés pour les entreprises, les OBNL et les organisations politiques et publiques."
+        ],
+        "email": "hubertcadieux@opubliq.com",
+        "links": [
+          { "type": "linkedin", "url": "https://www.linkedin.com/in/hubert-cadieux-7172571a0" },
+          { "type": "twitter", "url": "https://twitter.com/HubCadieux25" },
+          { "type": "github", "url": "https://github.com/hubcad25" },
+          { "type": "scholar", "url": "https://scholar.google.com/citations?user=VF6HfPoAAAAJ&hl=fr&oi=ao" }
+        ]
+      },
+      {
+        "id": "alexandre",
+        "name": "Alexandre Bouillon",
+        "role": "Co-fondateur",
+        "photoAlt": "Portrait d'Alexandre Bouillon",
+        "bio": [
+          "Co-fondateur d'Opubliq, Alexandre est candidat à la maîtrise en science politique à l'Université Laval. Spécialisé en comportement électoral et analyse de données, il s’intéresse particulièrement aux nouvelles méthodes de récolte et de visualisation de données.",
+          "À travers Opubliq, il met à profit son expertise en sciences sociales numériques pour outiller les acteurs politiques et contribuer à démocratiser l'opinion publique au sein de la société civile."
+        ],
+        "email": "alexandrebouillon@opubliq.com",
+        "links": [
+          { "type": "linkedin", "url": "https://www.linkedin.com/in/alexandrebouillon/" },
+          { "type": "twitter", "url": "https://x.com/Boubou7654" },
+          { "type": "github", "url": "https://github.com/AlexBouillon" }
+        ]
+      },
+      {
+        "id": "nicolas",
+        "name": "Nicolas Ebnoether-Noel",
+        "role": "Co-fondateur",
+        "photoAlt": "Portrait de Nicolas Ebnoether-Noel",
+        "bio": [
+          "Co-fondateur d'Opubliq, Nicolas Ebnoether-Noel est titulaire d’un baccalauréat en histoire et possède plus d'une décennie d'expérience dans le domaine du sondage, de l'analyse d’opinion publique et du ciblage stratégique.",
+          "Il a accompagné une variété d’acteurs politiques, institutionnels et associatifs dans la définition et la mise en œuvre de stratégies d'optimisation fondées sur l’analyse des données."
+        ],
+        "email": "nicolasebnoethernoel@opubliq.com",
+        "links": [
+          { "type": "linkedin", "url": "https://www.linkedin.com/in/nicolas-ebnoether-noel-ba0598254/" }
+        ]
+      }
+    ]
+  },
+
+  "about": {
+    "meta": {
+      "title": "À propos | Opubliq inc.",
+      "description": "Opubliq inc. est une entreprise québécoise d'analyse de données d'opinion publique fondée par Hubert Cadieux. NEQ 1181274987. Siège social à Montréal (Québec), Canada."
+    },
+    "title": "À propos d'Opubliq",
+    "lead": "Opubliq inc. est une entreprise québécoise spécialisée dans l'analyse de données d'opinion publique. Nous transformons les données en actions stratégiques pour aider les organisations à comprendre et à naviguer l'opinion publique.",
+    "body": [
+      "Nous accompagnons les organisations publiques et parapubliques — municipalités, OSBL, syndicats, partis politiques et agences d'affaires publiques — grâce à l'analyse de données existantes, aux sondages clé en main et à l'accompagnement stratégique.",
+      "Opubliq développe également des outils technologiques, dont une plateforme de sondage en libre-service et, à plus long terme, une plateforme d'estimation de l'opinion publique par intelligence artificielle issue de nos travaux de recherche et développement."
+    ],
+    "factsTitle": "Renseignements sur l'entreprise",
+    "facts": {
+      "legalName": "Raison sociale",
+      "neq": "Numéro d'entreprise du Québec (NEQ)",
+      "founder": "Fondateur",
+      "founded": "Année de fondation",
+      "headOffice": "Siège social",
+      "email": "Courriel",
+      "phone": "Téléphone"
+    },
+    "registryNote": "Entreprise immatriculée au Registraire des entreprises du Québec.",
+    "teamLink": "Rencontrez l'équipe",
+    "contactLink": "Nous contacter"
+  },
+
+  "contact": {
+    "meta": {
+      "title": "Nous contacter | Opubliq",
+      "description": "Joignez Opubliq par courriel (info@opubliq.com) ou par téléphone au (438) 825-3958. Première consultation gratuite."
+    },
+    "title": "Comment nous contacter",
+    "lead": "Transformons ensemble vos données d'opinion publique en actions stratégiques",
+    "email": { "title": "Courriel", "note": "Réponse sous 24 h" },
+    "phone": { "title": "Téléphone et messages textes", "note": "Lundi au vendredi : 9 h à 18 h" },
+    "linkedin": { "title": "LinkedIn", "note": "Suivez nos actualités" },
+    "office": { "title": "Siège social" },
+    "consultation": {
+      "title": "Première consultation gratuite",
+      "text": "Bénéficiez d'une consultation gratuite pour analyser vos besoins et définir la stratégie optimale",
+      "button": "Écrivez-nous",
+      "mailSubject": "Première consultation gratuite"
+    },
+    "process": {
+      "title": "Processus de collaboration",
+      "steps": [
+        { "title": "Consultation initiale gratuite", "text": "Évaluation de vos besoins et définition des objectifs" },
+        { "title": "Proposition personnalisée", "text": "Plan d'action détaillé avec méthodologie et timeline" },
+        { "title": "Exécution et suivi", "text": "Mise en œuvre avec rapports réguliers et ajustements" }
+      ]
+    }
+  },
+
+  "privacy": {
+    "meta": {
+      "title": "Politique de confidentialité | Opubliq",
+      "description": "Comment Opubliq collecte, utilise et protège vos renseignements personnels."
+    }
+  },
+
+  "notFound": {
+    "title": "Page introuvable",
+    "text": "La page que vous cherchez n'existe pas ou a été déplacée.",
+    "home": "Retour à l'accueil"
+  }
+}

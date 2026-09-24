@@ -1,0 +1,98 @@
+---
+import '../styles/global.css';
+import { getImage } from 'astro:assets';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import favicon from '../assets/logos/opubliq-symbole.png';
+import company from '../data/company.json';
+import { getCopy, langTags, locales, routes, type Lang, type RouteKey } from '../i18n';
+
+interface Props {
+  lang: Lang;
+  /** Key in the route table (src/i18n/index.ts); drives the FR/EN toggle and hreflang. Omit for pages without a counterpart (404). */
+  routeKey?: RouteKey;
+  title: string;
+  description: string;
+  noindex?: boolean;
+}
+const { lang, routeKey, title, description, noindex = false } = Astro.props;
+const t = getCopy(lang);
+const site = Astro.site ?? new URL('https://opubliq.com');
+const canonical = new URL(Astro.url.pathname, site).href;
+const alternates = routeKey
+  ? locales.map((l) => ({ hreflang: langTags[l], href: new URL(routes[routeKey][l], site).href }))
+  : [];
+const xDefault = routeKey ? new URL(routes[routeKey].fr, site).href : null;
+
+const icon32 = await getImage({ src: favicon, width: 32, height: 32, format: 'png' });
+const icon180 = await getImage({ src: favicon, width: 180, height: 180, format: 'png' });
+const ogImage = new URL('/og-image.png', site).href;
+
+const orgJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: company.name,
+  legalName: company.legalName,
+  url: site.href,
+  logo: new URL('/og-image.png', site).href,
+  email: company.email,
+  telephone: company.phoneE164,
+  foundingDate: company.foundingYear,
+  founder: { '@type': 'Person', name: company.founder },
+  identifier: { '@type': 'PropertyValue', propertyID: 'NEQ', name: 'Québec Enterprise Number (NEQ)', value: company.neq },
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: company.address.street,
+    addressLocality: company.address.city,
+    addressRegion: company.address.region,
+    postalCode: company.address.postalCode,
+    addressCountry: company.address.country,
+  },
+  sameAs: [company.links.linkedin, company.links.github],
+};
+---
+<!doctype html>
+<html lang={langTags[lang]}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <link rel="canonical" href={canonical} />
+    {alternates.map((a) => <link rel="alternate" hreflang={a.hreflang} href={a.href} />)}
+    {xDefault && <link rel="alternate" hreflang="x-default" href={xDefault} />}
+
+    <link rel="icon" type="image/png" sizes="32x32" href={icon32.src} />
+    <link rel="apple-touch-icon" href={icon180.src} />
+    <meta name="theme-color" content="#012326" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Opubliq" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:locale" content={langTags[lang].replace('-', '_')} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@600;700&display=swap"
+    />
+    <script type="application/ld+json" set:html={JSON.stringify(orgJsonLd)} />
+  </head>
+  <body class="flex min-h-screen flex-col">
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-button focus:bg-brand-soft focus:px-4 focus:py-2 focus:font-semibold focus:text-ink"
+    >{t.ui.skipToContent}</a>
+    <Header lang={lang} routeKey={routeKey ?? 'home'} />
+    <main id="main" class="flex-1">
+      <slot />
+    </main>
+    <Footer lang={lang} />
+  </body>
+</html>

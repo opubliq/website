@@ -1,0 +1,18 @@
+---
+// Title band at the top of interior pages.
+interface Props {
+  title: string;
+  lead?: string;
+  kicker?: string;
+}
+const { title, lead, kicker } = Astro.props;
+---
+<section class="relative overflow-hidden bg-ink text-white">
+  <div class="hero-glow pointer-events-none absolute inset-0" aria-hidden="true"></div>
+  <div class="container-page relative py-16 md:py-20">
+    {kicker && <p class="mb-4 text-xs font-semibold uppercase tracking-[0.12em] text-brand-soft">{kicker}</p>}
+    <h1 class="max-w-3xl text-4xl font-bold text-white md:text-5xl">{title}</h1>
+    {lead && <p class="mt-5 max-w-2xl text-lg leading-relaxed text-on-dark-muted">{lead}</p>}
+    <slot />
+  </div>
+</section>

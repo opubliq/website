@@ -1,0 +1,25 @@
+---
+import Button from './Button.astro';
+
+interface Props {
+  title: string;
+  text: string;
+  buttonLabel: string;
+  href: string;
+}
+const { title, text, buttonLabel, href } = Astro.props;
+---
+<section class="py-16 md:py-20">
+  <div class="container-page">
+    <div class="relative overflow-hidden rounded-card bg-ink px-6 py-12 text-center md:px-12">
+      <div class="hero-glow pointer-events-none absolute inset-0" aria-hidden="true"></div>
+      <div class="relative">
+        <h2 class="text-3xl font-bold text-white md:text-4xl">{title}</h2>
+        <p class="mx-auto mt-4 max-w-xl text-lg text-on-dark-muted">{text}</p>
+        <div class="mt-8">
+          <Button href={href} size="lg" arrow>{buttonLabel}</Button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,23 @@
+---
+import { getEntry, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import { getCopy, type Lang } from '../i18n';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = getCopy(lang);
+const entry = await getEntry('legal', `${lang}/privacy`);
+if (!entry) throw new Error(`Missing src/content/legal/${lang}/privacy.md`);
+const { Content } = await render(entry);
+---
+<BaseLayout lang={lang} routeKey="privacy" title={t.privacy.meta.title} description={t.privacy.meta.description}>
+  <PageHero title={entry.data.title} lead={entry.data.updated} />
+  <section class="py-14 md:py-20">
+    <div class="container-page">
+      <article class="prose-legal">
+        <Content />
+      </article>
+    </div>
+  </section>
+</BaseLayout>

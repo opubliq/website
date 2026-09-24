@@ -1,0 +1,68 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import Icon from '../components/Icon.astro';
+import CtaBanner from '../components/CtaBanner.astro';
+import hubert from '../assets/people/hubert.png';
+import alexandre from '../assets/people/alex.png';
+import nicolas from '../assets/people/nicolas.jpg';
+import { getCopy, path, type Lang } from '../i18n';
+import type { IconName } from '../components/icons';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = getCopy(lang);
+const team = t.team;
+
+// Photo per person id (see "id" in src/content/copy/<lang>.json).
+const photos: Record<string, ImageMetadata> = { hubert, alexandre, nicolas };
+const socialLabel = t.ui.social as Record<string, string>;
+---
+<BaseLayout lang={lang} routeKey="team" title={team.meta.title} description={team.meta.description}>
+  <PageHero title={team.title} lead={team.lead} />
+
+  <section class="py-16 md:py-20">
+    <div class="container-page grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      {team.people.map((person) => (
+        <article class="card flex flex-col overflow-hidden">
+          <Image
+            src={photos[person.id]}
+            alt={person.photoAlt}
+            widths={[360, 540, 720]}
+            sizes="(min-width: 1024px) 360px, (min-width: 768px) 50vw, 100vw"
+            class="aspect-[4/4] w-full object-cover object-top"
+          />
+          <div class="flex flex-1 flex-col p-7">
+            <h2 class="text-2xl font-bold">{person.name}</h2>
+            <p class="mt-1 text-sm font-semibold text-brand-strong">{person.role}</p>
+            <div class="mt-4 space-y-3 text-[0.95rem] leading-relaxed text-muted">
+              {person.bio.map((para) => <p>{para}</p>)}
+            </div>
+            <div class="mt-auto pt-6">
+              <a href={`mailto:${person.email}`} class="link inline-flex items-center gap-2 text-sm break-all">
+                <Icon name="mail" class="size-4 shrink-0" />{person.email}
+              </a>
+              <ul class="mt-4 flex flex-wrap gap-2">
+                {person.links.map((l) => (
+                  <li>
+                    <a
+                      href={l.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex size-9 items-center justify-center rounded-full border border-line text-ink transition-colors hover:border-brand hover:text-brand-strong"
+                    >
+                      <Icon name={l.type as IconName} class="size-4" label={`${socialLabel[l.type]} — ${person.name} ${t.ui.externalLink}`} />
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <CtaBanner title={t.cta.readyTitle} text={t.cta.readyText} buttonLabel={t.cta.letsTalk} href={path('contact', lang)} />
+</BaseLayout>

@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Button from '../components/Button.astro';
+import Icon from '../components/Icon.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import Testimonial from '../components/Testimonial.astro';
+import CtaBanner from '../components/CtaBanner.astro';
+import { getCopy, path, type Lang } from '../i18n';
+import type { IconName } from '../components/icons';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = getCopy(lang);
+const h = t.home;
+const cs = t.work.caseStudy;
+---
+<BaseLayout lang={lang} routeKey="home" title={h.meta.title} description={h.meta.description}>
+  <!-- Hero -->
+  <section class="relative overflow-hidden bg-ink text-white">
+    <div class="hero-glow pointer-events-none absolute inset-0" aria-hidden="true"></div>
+    <div class="container-page relative py-20 md:py-28">
+      <p class="mb-5 text-xs font-semibold uppercase tracking-[0.12em] text-brand-soft">{h.hero.kicker}</p>
+      <h1 class="max-w-4xl text-4xl font-bold leading-[1.08] text-white sm:text-5xl md:text-6xl">{h.hero.title}</h1>
+      <p class="mt-6 max-w-2xl text-lg leading-relaxed text-on-dark-muted md:text-xl">{h.hero.lead}</p>
+      <div class="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">
+        <Button href={path('contact', lang)} size="lg" arrow>{t.cta.consultation}</Button>
+        <Button href={path('services', lang)} size="lg" variant="onDark">{h.hero.secondary}</Button>
+      </div>
+      <p class="mt-4 text-sm text-on-dark-muted">{h.hero.prompt}</p>
+    </div>
+  </section>
+
+  <!-- How we help -->
+  <section class="py-16 md:py-24" aria-labelledby="help-title">
+    <div class="container-page">
+      <SectionHeading id="help-title" title={h.help.title} />
+      <ul class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        {h.help.items.map((item) => (
+          <li class="card flex flex-col p-6">
+            <span class="inline-flex size-11 items-center justify-center rounded-xl bg-brand-soft/20 text-brand-strong">
+              <Icon name={item.icon as IconName} class="size-5" />
+            </span>
+            <h3 class="mt-5 text-lg font-semibold leading-snug">{item.title}</h3>
+            <p class="mt-2 text-muted">{item.text}</p>
+          </li>
+        ))}
+      </ul>
+      <p class="mt-8">
+        <a href={path('services', lang)} class="link inline-flex items-center gap-1.5">
+          {h.help.link} <Icon name="arrowRight" class="size-4" />
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Team & expertise + testimonial -->
+  <section class="bg-surface-alt py-16 md:py-24" aria-labelledby="expertise-title">
+    <div class="container-page grid items-start gap-12 lg:grid-cols-2">
+      <div>
+        <SectionHeading id="expertise-title" title={h.expertise.title} lead={h.expertise.text} />
+        <div class="mt-8 flex flex-wrap gap-x-6 gap-y-3">
+          <a href={path('team', lang)} class="link inline-flex items-center gap-1.5">
+            {h.expertise.teamLink} <Icon name="arrowRight" class="size-4" />
+          </a>
+          <a href={path('work', lang)} class="link inline-flex items-center gap-1.5">
+            {h.expertise.workLink} <Icon name="arrowRight" class="size-4" />
+          </a>
+        </div>
+      </div>
+      <div>
+        <p class="kicker mb-4">{h.testimonialTitle}</p>
+        <Testimonial quote={cs.quote} author={cs.quoteAuthor} role={cs.quoteRole} note={cs.quoteNote} lang={lang} />
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner title={t.cta.readyTitle} text={t.cta.readyText} buttonLabel={t.cta.letsTalk} href={path('contact', lang)} />
+</BaseLayout>

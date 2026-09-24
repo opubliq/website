@@ -1,0 +1,22 @@
+{
+  "name": "Opubliq",
+  "legalName": "Opubliq inc.",
+  "neq": "1181274987",
+  "founder": "Hubert Cadieux",
+  "foundingYear": "2025",
+  "email": "info@opubliq.com",
+  "phoneDisplay": "(438) 825-3958",
+  "phoneE164": "+14388253958",
+  "address": {
+    "street": "7753, rue Foucher",
+    "city": "Montréal",
+    "region": "QC",
+    "postalCode": "H2R 2K8",
+    "country": "CA"
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/opubliq",
+    "github": "https://github.com/opubliq",
+    "scholar": "https://scholar.google.com/citations?user=VF6HfPoAAAAJ&hl=fr&oi=ao"
+  }
+}

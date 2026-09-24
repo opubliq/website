@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import Icon from '../components/Icon.astro';
+import Button from '../components/Button.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import company from '../data/company.json';
+import { getCopy, type Lang } from '../i18n';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = getCopy(lang);
+const c = t.contact;
+const consultMailto = `mailto:${company.email}?subject=${encodeURIComponent(c.consultation.mailSubject)}`;
+---
+<BaseLayout lang={lang} routeKey="contact" title={c.meta.title} description={c.meta.description}>
+  <PageHero title={c.title} lead={c.lead} />
+
+  <section class="py-16 md:py-20">
+    <div class="container-page">
+      <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div class="card p-6">
+          <Icon name="mail" class="size-6 text-brand" />
+          <h2 class="mt-4 text-base font-semibold">{c.email.title}</h2>
+          <a href={`mailto:${company.email}`} class="link mt-2 block text-lg">{company.email}</a>
+          <p class="mt-1 text-sm text-muted">{c.email.note}</p>
+        </div>
+        <div class="card p-6">
+          <Icon name="phone" class="size-6 text-brand" />
+          <h2 class="mt-4 text-base font-semibold">{c.phone.title}</h2>
+          <a href={`tel:${company.phoneE164}`} class="link mt-2 block text-lg">{company.phoneDisplay}</a>
+          <p class="mt-1 text-sm text-muted">{c.phone.note}</p>
+        </div>
+        <div class="card p-6">
+          <Icon name="linkedin" class="size-6 text-brand" />
+          <h2 class="mt-4 text-base font-semibold">{c.linkedin.title}</h2>
+          <a href={company.links.linkedin} target="_blank" rel="noopener noreferrer" class="link mt-2 block break-words">linkedin.com/company/opubliq</a>
+          <p class="mt-1 text-sm text-muted">{c.linkedin.note}</p>
+        </div>
+        <div class="card p-6">
+          <Icon name="mapPin" class="size-6 text-brand" />
+          <h2 class="mt-4 text-base font-semibold">{c.office.title}</h2>
+          <address class="mt-2 text-sm not-italic leading-relaxed text-ink">
+            <span class="block font-semibold">{company.legalName}</span>
+            {t.company.addressLines.map((line) => <span class="block">{line}</span>)}
+          </address>
+        </div>
+      </div>
+
+      <div class="relative mt-10 overflow-hidden rounded-card bg-brand-soft px-6 py-10 md:px-10">
+        <div class="relative flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+          <div class="max-w-2xl">
+            <h2 class="text-2xl font-bold md:text-3xl">{c.consultation.title}</h2>
+            <p class="mt-3 text-lg text-ink">{c.consultation.text}</p>
+          </div>
+          <Button href={consultMailto} variant="secondary" size="lg" arrow class="shrink-0">{c.consultation.button}</Button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-surface-alt py-16 md:py-24" aria-labelledby="process-title">
+    <div class="container-page">
+      <SectionHeading id="process-title" title={c.process.title} />
+      <ol class="mt-10 grid gap-6 md:grid-cols-3">
+        {c.process.steps.map((step, i) => (
+          <li class="card p-7">
+            <span class="inline-flex size-10 items-center justify-center rounded-full bg-ink font-display font-bold text-brand-soft">{i + 1}</span>
+            <h3 class="mt-5 text-lg font-bold">{step.title}</h3>
+            <p class="mt-2 text-muted">{step.text}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+</BaseLayout>
