@@ -1,0 +1,101 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import PersonContact from '../components/PersonContact.astro';
+import CtaBanner from '../components/CtaBanner.astro';
+import hubert from '../assets/people/hubert.png';
+import alexandre from '../assets/people/alex.png';
+import nicolas from '../assets/people/nicolas.jpg';
+import { getCopy, path, personPath, type Lang } from '../i18n';
+
+interface Props { lang: Lang; id: string }
+const { lang, id } = Astro.props;
+const t = getCopy(lang);
+const team = t.team;
+const labels = team.cv;
+const person = team.people.find((p) => p.id === id)!;
+const cv = person.cv as {
+  formation: { title: string; org: string; period?: string }[];
+  awards?: string[];
+  experience: { role?: string; org: string; period: string; items: string[] }[];
+};
+const photos: Record<string, ImageMetadata> = { hubert, alexandre, nicolas };
+const paths = { fr: personPath(person.slug, 'fr'), en: personPath(person.slug, 'en') };
+---
+<BaseLayout
+  lang={lang}
+  routeKey="team"
+  paths={paths}
+  title={`${person.name} | Opubliq`}
+  description={`${person.name} — ${person.role}. ${labels.metaSuffix}.`}
+>
+  <PageHero title={person.name} lead={person.role}>
+    <a href={path('team', lang)} class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-brand-soft hover:underline">
+      <span aria-hidden="true">←</span>{labels.back}
+    </a>
+  </PageHero>
+
+  <section class="py-16 md:py-20">
+    <div class="container-page grid items-start gap-12 lg:grid-cols-3">
+      <aside class="lg:sticky lg:top-24">
+        <div class="card overflow-hidden">
+          <Image
+            src={photos[person.id]}
+            alt={person.photoAlt}
+            widths={[320, 480, 640]}
+            sizes="(min-width: 1024px) 320px, 100vw"
+            class="aspect-[4/4] w-full object-cover object-top"
+          />
+          <div class="p-6">
+            <div class="space-y-3 text-[0.95rem] leading-relaxed text-muted">
+              {person.bio.map((para) => <p>{para}</p>)}
+            </div>
+            <div class="mt-6"><PersonContact lang={lang} person={person} /></div>
+          </div>
+        </div>
+      </aside>
+
+      <div class="space-y-12 lg:col-span-2">
+        <section aria-labelledby="cv-formation">
+          <h2 id="cv-formation" class="text-2xl font-bold">{labels.formation}</h2>
+          <ul class="mt-5 space-y-4">
+            {cv.formation.map((f) => (
+              <li class="border-l-2 border-brand-soft pl-4">
+                <p class="font-semibold text-ink">{f.title}</p>
+                <p class="text-sm text-muted">{f.org}{f.period && ` · ${f.period}`}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        {cv.awards && (
+          <section aria-labelledby="cv-awards">
+            <h2 id="cv-awards" class="text-2xl font-bold">{labels.awards}</h2>
+            <ul class="mt-5 space-y-4">
+              {cv.awards.map((a) => <li class="border-l-2 border-brand-soft pl-4 font-semibold text-ink">{a}</li>)}
+            </ul>
+          </section>
+        )}
+
+        <section aria-labelledby="cv-experience">
+          <h2 id="cv-experience" class="text-2xl font-bold">{labels.experience}</h2>
+          <ol class="mt-5 space-y-8">
+            {cv.experience.map((e) => (
+              <li class="border-l-2 border-brand-soft pl-4">
+                <p class="text-xs font-semibold uppercase tracking-wider text-brand-strong">{e.period}</p>
+                <h3 class="mt-1 text-lg font-bold leading-snug text-ink">{e.role ?? e.org}</h3>
+                {e.role && <p class="text-sm font-semibold text-muted">{e.org}</p>}
+                <ul class="mt-3 list-disc space-y-1.5 pl-5 text-[0.95rem] marker:text-brand">
+                  {e.items.map((item) => <li>{item}</li>)}
+                </ul>
+              </li>
+            ))}
+          </ol>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner title={t.cta.readyTitle} text={t.cta.readyText} buttonLabel={t.cta.letsTalk} href={path('contact', lang)} />
+</BaseLayout>

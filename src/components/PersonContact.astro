@@ -1,0 +1,30 @@
+---
+import Icon from './Icon.astro';
+import { getCopy, type Lang } from '../i18n';
+import type { IconName } from './icons';
+
+interface Props {
+  lang: Lang;
+  person: { name: string; email: string; links: { type: string; url: string }[] };
+}
+const { lang, person } = Astro.props;
+const t = getCopy(lang);
+const socialLabel = t.ui.social as Record<string, string>;
+---
+<a href={`mailto:${person.email}`} class="link inline-flex items-center gap-2 text-sm break-all">
+  <Icon name="mail" class="size-4 shrink-0" />{person.email}
+</a>
+<ul class="mt-4 flex flex-wrap gap-2">
+  {person.links.map((l) => (
+    <li>
+      <a
+        href={l.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex size-9 items-center justify-center rounded-full border border-line text-ink transition-colors hover:border-brand hover:text-brand-strong"
+      >
+        <Icon name={l.type as IconName} class="size-4" label={`${socialLabel[l.type]} — ${person.name} ${t.ui.externalLink}`} />
+      </a>
+    </li>
+  ))}
+</ul>

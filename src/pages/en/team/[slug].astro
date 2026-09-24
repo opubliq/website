@@ -1,0 +1,10 @@
+---
+import View from '../../../views/TeamMember.astro';
+import fr from '../../../content/copy/fr.json';
+
+export function getStaticPaths() {
+  return fr.team.people.map((p) => ({ params: { slug: p.slug }, props: { id: p.id } }));
+}
+const { id } = Astro.props;
+---
+<View lang="en" id={id} />

@@ -41,6 +41,11 @@ export function otherLang(lang: Lang): Lang {
   return lang === 'fr' ? 'en' : 'fr';
 }
 
+/** Path of a team member's CV page, e.g. /equipe/hubert-cadieux/ (slug comes from "slug" in the copy files). */
+export function personPath(slug: string, lang: Lang): string {
+  return `${routes.team[lang]}${slug}/`;
+}
+
 /** Main navigation order (header and footer). */
 export const navKeys = ['services', 'work', 'team', 'about', 'contact'] as const satisfies readonly RouteKey[];
 

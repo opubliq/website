@@ -5,24 +5,27 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import favicon from '../assets/logos/opubliq-symbole.png';
 import company from '../data/company.json';
-import { getCopy, langTags, locales, routes, type Lang, type RouteKey } from '../i18n';
+import { getCopy, langTags, locales, otherLang, routes, type Lang, type RouteKey } from '../i18n';
 
 interface Props {
   lang: Lang;
   /** Key in the route table (src/i18n/index.ts); drives the FR/EN toggle and hreflang. Omit for pages without a counterpart (404). */
   routeKey?: RouteKey;
+  /** Explicit path per locale for pages that are not in the route table (e.g. team member pages). */
+  paths?: Record<Lang, string>;
   title: string;
   description: string;
   noindex?: boolean;
 }
-const { lang, routeKey, title, description, noindex = false } = Astro.props;
+const { lang, routeKey, paths, title, description, noindex = false } = Astro.props;
 const t = getCopy(lang);
 const site = Astro.site ?? new URL('https://opubliq.com');
 const canonical = new URL(Astro.url.pathname, site).href;
-const alternates = routeKey
-  ? locales.map((l) => ({ hreflang: langTags[l], href: new URL(routes[routeKey][l], site).href }))
+const localized = paths ?? (routeKey ? routes[routeKey] : null);
+const alternates = localized
+  ? locales.map((l) => ({ hreflang: langTags[l], href: new URL(localized[l], site).href }))
   : [];
-const xDefault = routeKey ? new URL(routes[routeKey].fr, site).href : null;
+const xDefault = localized ? new URL(localized.fr, site).href : null;
 
 const icon32 = await getImage({ src: favicon, width: 32, height: 32, format: 'png' });
 const icon180 = await getImage({ src: favicon, width: 180, height: 180, format: 'png' });
@@ -89,7 +92,7 @@ const orgJsonLd = {
       href="#main"
       class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-button focus:bg-brand-soft focus:px-4 focus:py-2 focus:font-semibold focus:text-ink"
     >{t.ui.skipToContent}</a>
-    <Header lang={lang} routeKey={routeKey ?? 'home'} />
+    <Header lang={lang} routeKey={routeKey ?? 'home'} altPath={paths?.[otherLang(lang)]} />
     <main id="main" class="flex-1">
       <slot />
     </main>

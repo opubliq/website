@@ -260,10 +260,19 @@
   "team": {
     "meta": {
       "title": "Notre équipe | Opubliq",
-      "description": "Hubert Cadieux, Alexandre Bouillon et Nicolas Ebnoether-Noel : science politique, science des données et expérience terrain."
+      "description": "Hubert Cadieux, Alexandre Bouillon et Nicolas Ebnoether-Noël : science politique, science des données et expérience terrain."
     },
     "title": "Notre équipe",
     "lead": "Notre équipe combine expertise en science politique, programmation avancée, analyse de données et expérience terrain pour vous accompagner dans vos décisions stratégiques.",
+    "cv": {
+      "link": "CV complet",
+      "back": "Retour à l'équipe",
+      "formation": "Formation",
+      "experience": "Expérience",
+      "awards": "Bourses",
+      "present": "présent",
+      "metaSuffix": "Parcours et expérience"
+    },
     "people": [
       {
         "id": "hubert",
@@ -274,6 +283,45 @@
           "Hubert Cadieux est un scientifique de données et fondateur d'Opubliq. Titulaire d'une maîtrise en science politique de l'Université Laval, il transforme l'opinion publique en stratégies concrètes grâce à l'apprentissage automatique et l'analyse quantitative.",
           "Auteur de plusieurs publications académiques et boursier du Fonds de recherche du Québec, il a contribué à des projets comme Datagotchi, Boussole électorale et Polimètre, et développe des outils d'analyse avancés pour les entreprises, les OBNL et les organisations politiques et publiques."
         ],
+        "slug": "hubert-cadieux",
+        "cv": {
+          "formation": [
+            {
+              "title": "Maîtrise en science politique",
+              "org": "Université Laval"
+            }
+          ],
+          "awards": [
+            "Bourse du Fonds de recherche du Québec (FRQ)"
+          ],
+          "experience": [
+            {
+              "org": "Environics Institute",
+              "period": "2025 – présent",
+              "items": [
+                "Analyses de données de sondage ayant mené à des rapports de recherche"
+              ]
+            },
+            {
+              "org": "Musée de la civilisation",
+              "period": "2022 – 2024",
+              "items": [
+                "Rédaction de deux rapports marketing basés sur des enquêtes de satisfaction"
+              ]
+            },
+            {
+              "org": "CLESSN",
+              "period": "2021 – 2025",
+              "items": [
+                "Contribution aux projets Datagotchi, Boussole électorale, Projet Quorum et Polimètre",
+                "Collaboration avec des partenaires externes (La Presse Canadienne, Office des professions du Québec)",
+                "Gestion de projets",
+                "Programmation de sondages et analyses conjointes sur Qualtrics",
+                "Publication d'articles scientifiques"
+              ]
+            }
+          ]
+        },
         "email": "hubertcadieux@opubliq.com",
         "links": [
           { "type": "linkedin", "url": "https://www.linkedin.com/in/hubert-cadieux-7172571a0" },
@@ -291,6 +339,53 @@
           "Co-fondateur d'Opubliq, Alexandre est titulaire d'une maîtrise en science politique de l'Université Laval et doctorant en science politique à l'Université de Montréal. Spécialisé en comportement électoral et analyse de données, il s’intéresse particulièrement aux nouvelles méthodes de récolte et de visualisation de données.",
           "À travers Opubliq, il met à profit son expertise en sciences sociales numériques pour outiller les acteurs politiques et contribuer à démocratiser l'opinion publique au sein de la société civile."
         ],
+        "slug": "alexandre-bouillon",
+        "cv": {
+          "formation": [
+            {
+              "title": "Doctorat en science politique",
+              "org": "Université de Montréal",
+              "period": "en cours"
+            },
+            {
+              "title": "Maîtrise en science politique",
+              "org": "Université Laval"
+            }
+          ],
+          "experience": [
+            {
+              "org": "Environics Institute",
+              "period": "2025 – présent",
+              "items": [
+                "Nettoyage de données de sondage, modèles de régression et rapports Quarto"
+              ]
+            },
+            {
+              "org": "Radio-Canada / OBVIA",
+              "period": "2024 – 2025",
+              "items": [
+                "Clustering et catégorisation automatique d'articles"
+              ]
+            },
+            {
+              "org": "CLESSN",
+              "period": "2022 – 2025",
+              "items": [
+                "Contribution aux projets Datagotchi, Projet Quorum et Polimètre",
+                "Programmation de sondages sur Qualtrics",
+                "Gestion et coordination de projets",
+                "Publication d'articles scientifiques"
+              ]
+            },
+            {
+              "org": "Polimètre Trudeau / Legault",
+              "period": "2022 – 2023",
+              "items": [
+                "Évaluation de la réalisation des promesses gouvernementales"
+              ]
+            }
+          ]
+        },
         "email": "alexandrebouillon@opubliq.com",
         "links": [
           { "type": "linkedin", "url": "https://www.linkedin.com/in/alexandrebouillon/" },
@@ -300,13 +395,88 @@
       },
       {
         "id": "nicolas",
-        "name": "Nicolas Ebnoether-Noel",
+        "name": "Nicolas Ebnoether-Noël",
         "role": "Co-fondateur",
-        "photoAlt": "Portrait de Nicolas Ebnoether-Noel",
+        "photoAlt": "Portrait de Nicolas Ebnoether-Noël",
         "bio": [
-          "Co-fondateur d'Opubliq, Nicolas Ebnoether-Noel est titulaire d’un baccalauréat en histoire et poursuit actuellement un DESS en relations publiques à l'Université Laval. Il possède plus d'une décennie d'expérience dans le domaine du sondage, de l'analyse d’opinion publique et du ciblage stratégique.",
+          "Co-fondateur d'Opubliq, Nicolas Ebnoether-Noël est titulaire d’une maîtrise en histoire et poursuit actuellement un DESS en relations publiques à l'Université Laval. Il possède plus d'une décennie d'expérience dans le domaine du sondage, de l'analyse d’opinion publique et du ciblage stratégique.",
           "Il a accompagné une variété d’acteurs politiques, institutionnels et associatifs dans la définition et la mise en œuvre de stratégies d'optimisation fondées sur l’analyse des données."
         ],
+        "slug": "nicolas-ebnoether-noel",
+        "cv": {
+          "formation": [
+            {
+              "title": "DESS en relations publiques",
+              "org": "Université Laval",
+              "period": "en cours"
+            },
+            {
+              "title": "Maîtrise en histoire",
+              "org": "Université Laval",
+              "period": "2018"
+            },
+            {
+              "title": "Rédaction stratégique (IJC-FRA105), formation certifiée",
+              "org": "TELUQ"
+            }
+          ],
+          "experience": [
+            {
+              "role": "Chargé de projet",
+              "org": "Médaillon Groupe Conseils",
+              "period": "2016 – présent",
+              "items": [
+                "Gestion de projets de sondage, de budgets et d'équipes de téléphonistes et d'interviewers",
+                "Conception et révision de questionnaires de sondage",
+                "Analyse de données quantitatives et conseil sur la visualisation de données",
+                "Création et présentation de rapports, accompagnement des clients dans leur usage",
+                "Conseil en communication avec les médias"
+              ]
+            },
+            {
+              "role": "Responsable des opérations de pointage",
+              "org": "Québec Forte et Fière",
+              "period": "2025",
+              "items": [
+                "Assurance de la qualité et de l'usage optimal de la base de données de pointage",
+                "Stratégie de pointage pour chacun des candidats",
+                "Analyse en continu des données d'opinion publique",
+                "Soutien et formation des équipes terrain sur les outils de pointage"
+              ]
+            },
+            {
+              "role": "Consultant stratégique en données",
+              "org": "Québec Forte et Fière et Repensons Lévis",
+              "period": "2025",
+              "items": [
+                "Conseils et formations sur l'acquisition et l'usage de données électorales",
+                "Analyse de l'opinion publique",
+                "Conseils stratégiques en communications politiques",
+                "Analyse de données électorales et sociodémographiques"
+              ]
+            },
+            {
+              "role": "Conseiller politique",
+              "org": "Cabinet de l'opposition officielle, Ville de Québec",
+              "period": "2023 – 2024",
+              "items": [
+                "Recherche et analyse de dossiers politiques locaux, dont le logement",
+                "Rédaction de discours, de notes d'information et de rapports stratégiques",
+                "Veille médiatique et suivi de l'opinion publique, dont sur le projet de tramway de Québec"
+              ]
+            },
+            {
+              "role": "Analyste stratégique et recherche",
+              "org": "Québec d'Abord",
+              "period": "2022 – 2023",
+              "items": [
+                "Croisement de données électorales et sociodémographiques",
+                "Création et présentation de rapports d'orientation stratégique",
+                "Analyse cartographique de données socioéconomiques"
+              ]
+            }
+          ]
+        },
         "email": "nicolasebnoethernoel@opubliq.com",
         "links": [
           { "type": "linkedin", "url": "https://www.linkedin.com/in/nicolas-ebnoether-noel-ba0598254/" }

@@ -7,8 +7,10 @@ import { getCopy, navKeys, otherLang, path, langTags, type Lang, type RouteKey }
 interface Props {
   lang: Lang;
   routeKey: RouteKey;
+  /** Overrides the language-switch target when the page is not in the route table. */
+  altPath?: string;
 }
-const { lang, routeKey } = Astro.props;
+const { lang, routeKey, altPath } = Astro.props;
 const t = getCopy(lang);
 const alt = otherLang(lang);
 
@@ -19,7 +21,7 @@ const links = navKeys.map((key) => ({
   current: key === routeKey,
 }));
 const langLink = {
-  href: path(routeKey, alt),
+  href: altPath ?? path(routeKey, alt),
   label: t.ui.langSwitchLabel,
   short: t.ui.langSwitchShort,
   hreflang: langTags[alt],

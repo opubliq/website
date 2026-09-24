@@ -2,13 +2,12 @@
 import { Image } from 'astro:assets';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PageHero from '../components/PageHero.astro';
-import Icon from '../components/Icon.astro';
 import CtaBanner from '../components/CtaBanner.astro';
 import hubert from '../assets/people/hubert.png';
 import alexandre from '../assets/people/alex.png';
 import nicolas from '../assets/people/nicolas.jpg';
-import { getCopy, path, type Lang } from '../i18n';
-import type { IconName } from '../components/icons';
+import PersonContact from '../components/PersonContact.astro';
+import { getCopy, path, personPath, type Lang } from '../i18n';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -17,7 +16,6 @@ const team = t.team;
 
 // Photo per person id (see "id" in src/content/copy/<lang>.json).
 const photos: Record<string, ImageMetadata> = { hubert, alexandre, nicolas };
-const socialLabel = t.ui.social as Record<string, string>;
 ---
 <BaseLayout lang={lang} routeKey="team" title={team.meta.title} description={team.meta.description}>
   <PageHero title={team.title} lead={team.lead} />
@@ -40,23 +38,10 @@ const socialLabel = t.ui.social as Record<string, string>;
               {person.bio.map((para) => <p>{para}</p>)}
             </div>
             <div class="mt-auto pt-6">
-              <a href={`mailto:${person.email}`} class="link inline-flex items-center gap-2 text-sm break-all">
-                <Icon name="mail" class="size-4 shrink-0" />{person.email}
+              <a href={personPath(person.slug, lang)} class="mb-5 inline-flex items-center gap-2 text-sm font-semibold text-brand-strong hover:underline">
+                {team.cv.link}<span aria-hidden="true">→</span><span class="sr-only"> — {person.name}</span>
               </a>
-              <ul class="mt-4 flex flex-wrap gap-2">
-                {person.links.map((l) => (
-                  <li>
-                    <a
-                      href={l.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="inline-flex size-9 items-center justify-center rounded-full border border-line text-ink transition-colors hover:border-brand hover:text-brand-strong"
-                    >
-                      <Icon name={l.type as IconName} class="size-4" label={`${socialLabel[l.type]} — ${person.name} ${t.ui.externalLink}`} />
-                    </a>
-                  </li>
-                ))}
-              </ul>
+              <div><PersonContact lang={lang} person={person} /></div>
             </div>
           </div>
         </article>
