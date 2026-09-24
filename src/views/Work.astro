@@ -11,33 +11,41 @@ interface Props { lang: Lang }
 const { lang } = Astro.props;
 const t = getCopy(lang);
 const w = t.work;
-const cs = w.caseStudy;
-const [introBefore, introAfter] = cs.intro.split('{client}');
+const cs0 = w.caseStudy;
+const studies: any[] = [cs0, ...w.projects];
 ---
 <BaseLayout lang={lang} routeKey="work" title={w.meta.title} description={w.meta.description}>
   <PageHero title={w.title} lead={w.lead} />
 
-  <!-- Case study -->
-  <section class="py-16 md:py-20" aria-labelledby="case-title">
-    <div class="container-page grid items-start gap-10 lg:grid-cols-5">
-      <div class="lg:col-span-3">
-        <p class="kicker mb-3">{cs.label}</p>
-        <h2 id="case-title" class="text-3xl font-bold md:text-4xl">{cs.title}</h2>
-        <p class="mt-5 text-lg leading-relaxed text-muted">
-          {introBefore}<a class="link" href={cs.clientUrl} target="_blank" rel="noopener noreferrer">{cs.client}</a>{introAfter}
-        </p>
-        <p class="mt-6 font-semibold text-ink">{cs.mandateLabel}</p>
-        <ul class="mt-3 space-y-3">
-          {cs.mandate.map((m) => (
-            <li class="flex gap-3">
-              <Icon name="check" class="mt-1 size-4 shrink-0 text-brand" />
-              <span>{m}</span>
-            </li>
-          ))}
-        </ul>
+  <!-- Case studies -->
+  <section class="py-16 md:py-20" aria-labelledby="cases-title">
+    <div class="container-page">
+      <SectionHeading id="cases-title" title={w.casesTitle} />
+      <div class="mt-10 grid gap-6 lg:grid-cols-3">
+        {studies.map((cs) => {
+          const [introBefore, introAfter] = cs.intro.split('{client}');
+          return (
+            <article class="card flex flex-col p-7">
+              <p class="kicker mb-3">{cs.label}</p>
+              <h3 class="text-xl font-bold leading-snug">{cs.title}</h3>
+              <p class="mt-4 text-sm leading-relaxed text-muted">
+                {introBefore}<a class="link" href={cs.clientUrl} target="_blank" rel="noopener noreferrer">{cs.client}</a>{introAfter}
+              </p>
+              <p class="mt-5 text-sm font-semibold text-ink">{cs.mandateLabel}</p>
+              <ul class="mt-3 space-y-2.5 text-sm">
+                {cs.mandate.map((m) => (
+                  <li class="flex gap-3">
+                    <Icon name="check" class="mt-0.5 size-4 shrink-0 text-brand" />
+                    <span>{m}</span>
+                  </li>
+                ))}
+              </ul>
+            </article>
+          );
+        })}
       </div>
-      <div class="lg:col-span-2">
-        <Testimonial quote={cs.quote} author={cs.quoteAuthor} role={cs.quoteRole} note={cs.quoteNote} lang={lang} />
+      <div class="mx-auto mt-10 max-w-3xl">
+        <Testimonial quote={cs0.quote} author={cs0.quoteAuthor} role={cs0.quoteRole} note={cs0.quoteNote} lang={lang} />
       </div>
     </div>
   </section>
