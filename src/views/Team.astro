@@ -21,24 +21,24 @@ const photos: Record<string, ImageMetadata> = { hubert, alexandre, nicolas };
   <PageHero title={team.title} lead={team.lead} />
 
   <section class="py-16 md:py-20">
-    <div class="container-page grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+    <div class="container-page flex flex-col gap-10">
       {team.people.map((person) => (
-        <article class="card flex flex-col overflow-hidden">
+        <article class="card flex flex-col gap-6 p-7 md:flex-row md:gap-10 md:p-10">
           <Image
             src={photos[person.id]}
             alt={person.photoAlt}
-            widths={[360, 540, 720]}
-            sizes="(min-width: 1024px) 360px, (min-width: 768px) 50vw, 100vw"
-            class="aspect-[4/4] w-full object-cover object-top"
+            widths={[200, 400]}
+            sizes="200px"
+            class="aspect-[4/5] w-36 shrink-0 self-start rounded-xl object-cover object-top md:w-44"
           />
-          <div class="flex flex-1 flex-col p-7">
-            <h2 class="text-2xl font-bold">{person.name}</h2>
-            <p class="mt-1 text-sm font-semibold text-brand-strong">{person.role}</p>
-            <div class="mt-4 space-y-3 text-[0.95rem] leading-relaxed text-muted">
+          <div class="flex flex-1 flex-col">
+            <h2 class="text-3xl font-bold">{person.name}</h2>
+            <p class="mt-1 text-base font-semibold text-brand-strong">{person.role}</p>
+            <div class="mt-4 space-y-4 text-lg leading-relaxed text-muted">
               {person.bio.map((para) => <p>{para}</p>)}
             </div>
             <div class="mt-auto pt-6">
-              <a href={personPath(person.slug, lang)} class="mb-5 inline-flex items-center gap-2 text-sm font-semibold text-brand-strong hover:underline">
+              <a href={personPath(person.slug, lang)} class="mb-5 inline-flex items-center gap-2 text-base font-semibold text-brand-strong hover:underline">
                 {team.cv.link}<span aria-hidden="true">→</span><span class="sr-only"> — {person.name}</span>
               </a>
               <div><PersonContact lang={lang} person={person} /></div>
